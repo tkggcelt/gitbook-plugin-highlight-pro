@@ -71,72 +71,72 @@ highlight-pro插件默认使用monokai风格，可以在配置文件中修改默
 ```
 # 支持的语言
 默认支持的语言(可在mark都为你代码块上显式指定的)
-| 类别| 语言| 备注|
-|---|----|---|
-|common|bash| shell脚本|
-||coffeescript|CoffeeScript|
-||cpp|C++|
-||cs|C#|
-||css|CSS|
-||diff|diff命令的结果|
-||http|HTTP协议内容|
-||java|Java|
-||javascript|JavaScript|
-||json|JSON内容|
-||makefile| Makefile内容|
-||markdown| Markdown文本|
-||objectivec|Objective-C语言|
-||perl|Perl语言|
-||php|PHP语言|
-||python|Python语言|
-||ruby| Ruby语言|
-||sql|SQL语句|
-||xml|HTML、XML文件|
-|assembler|armasm|ARM Assembly文件|
-||avrasm|AVR Assembler文件|
-||mipsasm|MIPS Assembly文件|
-||x86asm| Intel x86 Assembly文件|
-|config|apache|Apache配置文件|
-||crmsh|crmsh配置|
-||dns|DNS Zone File|
-||dockerfile| Dockerfile配置文件|
-||ini|ini格式配置文件|
-||nginx|Nginx配置文件|
-||pf||
-||puppet|Puppet|
-||roboconf|Roboconf|
-||yaml|YAML格式配置文件|
-|css|css|CSS文件|
-||less|Less文件|
-||scss|Scss文件|
-||stylus|Syulus文件|
-|enterprise|1c|1C|
-||axapta|Axapta|
-||cos|Cache Object Script|
-||livecodeserver|LiveCode|
-||ruleslanguage|Oracle Rules Language|
-|functional|elixir|Elixir|
-||elm|Elm|
-||erlang-repl|Erlang REPL|
-||erlang|Erlang|
-||fsharp|F#|
-||haskell|Haskell|
-||ocaml|OCaml|
-||scala|Scala|
-||sml|SML|
-||xqurey|XQuery|
-|graphics|glsl|GLSL|
-||mel|MEL|
-||processing|Processing|
-||rib|RenderMan RIB|
-||rsl|RenderMan RSL|
-|lisp|clojure-repl| Clojure REPL|
-||clojure|Clojure|
-||lisp| Lisp|
-||scheme|Scheme|
-|markup|asciidoc|AsciiDoc|
-||mdrkdown|Markdown|
-||tex|TeX|
+| 类别 | 语言| 备注 |
+| ----- | ------ | ------ |
+| common | bash | shell脚本 |
+| | coffeescript | CoffeeScript |
+| | cpp | C++ |
+| | cs | C# |
+| | css | CSS |
+| | diff | diff命令的结果 |
+| | http | HTTP协议内容 |
+| |  java | Java |
+| | javascript | JavaScript |
+| | json | JSON内容 |
+| | makefile | Makefile内容 |
+| | markdown | Markdown文本 |
+| | objectivec | Objective-C语言 |
+| | perl | Perl语言 |
+| | php | PHP语言 |
+| | python | Python语言 |
+| | ruby | Ruby语言 |
+| | sql | SQL语句 |
+| | xml | HTML、XML文件 |
+| assembler | armasm | ARM Assembly文件 |
+| | avrasm | AVR Assembler文件 |
+| | mipsasm | MIPS Assembly文件 |
+| | x86asm | Intel x86 Assembly文件 |
+| config | apache | Apache配置文件 |
+| | crmsh | crmsh配置 |
+| | dns | DNS Zone File |
+| | dockerfile | Dockerfile配置文件 |
+| | ini | ini格式配置文件 |
+| | nginx | Nginx配置文件 |
+| | pf | |
+| | puppet | Puppet |
+| | roboconf | Roboconf |
+| | yaml | YAML格式配置文件 |
+| css | css | CSS文件 |
+| | less | Less文件 |
+| | scss | Scss文件 |
+| | stylus | Syulus文件 |
+| enterprise | 1c | 1C |
+| | axapta | Axapta |
+| | cos | Cache Object Script |
+| | livecodeserver | LiveCode |
+| | ruleslanguage | Oracle Rules Language |
+| functional | elixir | Elixir |
+| | elm | Elm |
+| | erlang-repl | Erlang REPL |
+| | erlang | Erlang |
+| | fsharp | F# |
+| | haskell | Haskell |
+| | ocaml | OCaml |
+| | scala | Scala |
+| | sml | SML |
+| | xqurey | XQuery |
+| graphics | glsl | GLSL |
+| | mel | MEL |
+| | processing | Processing |
+| | rib | RenderMan RIB |
+| | rsl | RenderMan RSL |
+| lisp | clojure-repl | Clojure REPL |
+| | clojure | Clojure |
+| | lisp |  Lisp |
+| | scheme | Scheme |
+| markup | asciidoc | AsciiDoc |
+| | mdrkdown |Markdown |
+| | tex | TeX |
 
 
 
