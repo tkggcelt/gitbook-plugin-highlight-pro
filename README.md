@@ -46,6 +46,7 @@ highlight-pro插件将自动解析gitbook中markdown中的代码段，如以下�
   <div>xxxx</div>
 
   xxxxxxxxxxxxxxxxxxxxxxx
+  
   ```php
   <?php 
       echo "hello world";
@@ -59,7 +60,11 @@ highlight-pro插件将自动解析gitbook中markdown中的代码段，如以下�
 # 配置
 highlight-pro插件默认使用monokai风格，可以在配置文件中修改默认风格。
 另外，由于必须在markdown中显式指定语言才能解析，若是指定的语言不存在，则会报错，这个时候，可以在配置文件中指定map转换。
+
+
 > 比如使用`shell`语言将报错，可在配置文件中将shell映射到`bash`上即可
+
+
 ```javascript
 {
     "plugins": [
@@ -77,6 +82,7 @@ highlight-pro插件默认使用monokai风格，可以在配置文件中修改默
     ]
 }
 ```
+
 # 支持的语言
 默认支持的语言(可在mark都为你代码块上显式指定的)
 
