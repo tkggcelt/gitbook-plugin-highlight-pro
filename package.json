@@ -1,0 +1,39 @@
+{
+  "name": "gitbook-plugin-highlight-pro",
+  "description": "gitbook plugin for code highlight",
+  "main": "index.js",
+  "version": "1.0.0",
+  "engines": {
+    "gitbook": "*"
+  },
+  "homepage": "https://github.com/tkggcelt/gitbook-plugin-highlight-pro",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tkggcelt/gitbook-plugin-highlight-pro.git"
+  },
+  "license": "Apache 2",
+  "bugs": {
+    "url": "https://github.com/tkggcelt/gitbook-plugin-highlight-pro/issues"
+  },
+  "_id": "gitbook-plugin-highlight-pro@1.0.0",
+  "dist": {
+    "shasum": "d13a1a4e131c602e892b5769618ec235a23fb5a5",
+    "tarball": "http://registry.npmjs.org/gitbook-theme-comscore/-/gitbook-theme-comscore-0.0.3.tgz"
+  },
+  "_from": "gitbook-plugin-highlight-pro@*",
+  "_npmVersion": "1.4.6",
+  "_npmUser": {
+    "name": "tkggcelt",
+    "email": "tkggcelt@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "tkggcelt",
+      "email": "tkggcelt@gmail.com"
+    }
+  ],
+  "directories": {},
+  "_shasum": "d13a1a4e131c602e892b5769618ec235a23fb5a5",
+  "_resolved": "https://registry.npmjs.org/gitbook-theme-comscore/-/gitbook-theme-comscore-0.0.3.tgz",
+  "readme": "ERROR: No README data found!"
+}

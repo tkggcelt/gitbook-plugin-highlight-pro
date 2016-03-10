@@ -1,0 +1,5630 @@
+/*!
+ * Agate by Taufik Nurrohman <https://github.com/tovic>
+ * ----------------------------------------------------
+ *
+ * #ade5fc
+ * #a2fca2
+ * #c6b4f0
+ * #d36363
+ * #fcc28c
+ * #fc9b9b
+ * #ffa
+ * #fff
+ * #333
+ * #62c8f3
+ * #888
+ *
+ */
+
+.agate.hljs {
+  display: block !important;
+  overflow-x: auto !important;
+  padding: 0.5em !important;
+  background: #333 !important;
+  color: white !important;
+}
+
+.agate .hljs-name,
+.agate .hljs-strong {
+  font-weight: bold !important;
+}
+
+.agate .hljs-code,
+.agate .hljs-emphasis {
+  font-style: italic !important;
+}
+
+.agate .hljs-tag {
+  color: #62c8f3 !important;
+}
+
+.agate .hljs-variable,
+.agate .hljs-template-variable,
+.agate .hljs-selector-id,
+.agate .hljs-selector-class {
+  color: #ade5fc !important;
+}
+
+.agate .hljs-string,
+.agate .hljs-bullet {
+  color: #a2fca2 !important;
+}
+
+.agate .hljs-type,
+.agate .hljs-title,
+.agate .hljs-section,
+.agate .hljs-attribute,
+.agate .hljs-quote,
+.agate .hljs-built_in,
+.agate .hljs-builtin-name {
+  color: #ffa !important;
+}
+
+.agate .hljs-number,
+.agate .hljs-symbol,
+.agate .hljs-bullet {
+  color: #d36363 !important;
+}
+
+.agate .hljs-keyword,
+.agate .hljs-selector-tag,
+.agate .hljs-literal {
+  color: #fcc28c !important;
+}
+
+.agate .hljs-comment,
+.agate .hljs-deletion,
+.agate .hljs-code {
+  color: #888 !important;
+}
+
+.agate .hljs-regexp,
+.agate .hljs-link {
+  color: #c6b4f0 !important;
+}
+
+.agate .hljs-meta {
+  color: #fc9b9b !important;
+}
+
+.agate .hljs-deletion {
+  background-color: #fc9b9b !important;
+  color: #333 !important;
+}
+
+.agate .hljs-addition {
+  background-color: #a2fca2 !important;
+  color: #333 !important;
+}
+
+.agate.hljs a {
+  color: inherit !important;
+}
+
+.agate.hljs a:focus,
+.agate.hljs a:hover {
+  color: inherit !important;
+  text-decoration: underline !important;
+}
+/*
+Date: 24 Fev 2015
+Author: Pedro Oliveira <kanytu@gmail . com>
+*/
+
+.androidstudio.hljs {
+  color: #a9b7c6 !important;
+  background: #282b2e !important;
+  display: block !important;
+  overflow-x: auto !important;
+  padding: 0.5em !important;
+}
+
+.androidstudio .hljs-number,
+.androidstudio .hljs-literal,
+.androidstudio .hljs-symbol,
+.androidstudio .hljs-bullet {
+  color: #6897BB !important;
+}
+
+.androidstudio .hljs-keyword,
+.androidstudio .hljs-selector-tag,
+.androidstudio .hljs-deletion {
+  color: #cc7832 !important;
+}
+
+.androidstudio .hljs-variable,
+.androidstudio .hljs-template-variable,
+.androidstudio .hljs-link {
+  color: #629755 !important;
+}
+
+.androidstudio .hljs-comment,
+.androidstudio .hljs-quote {
+  color: #808080 !important;
+}
+
+.androidstudio .hljs-meta {
+  color: #bbb529 !important;
+}
+
+.androidstudio .hljs-string,
+.androidstudio .hljs-attribute,
+.androidstudio .hljs-addition {
+  color: #6A8759 !important;
+}
+
+.androidstudio .hljs-section,
+.androidstudio .hljs-title,
+.androidstudio .hljs-type {
+  color: #ffc66d !important;
+}
+
+.androidstudio .hljs-name,
+.androidstudio .hljs-selector-id,
+.androidstudio .hljs-selector-class {
+  color: #e8bf6a !important;
+}
+
+.androidstudio .hljs-emphasis {
+  font-style: italic !important;
+}
+
+.androidstudio .hljs-strong {
+  font-weight: bold !important;
+}
+/*
+
+Arduino® Light Theme - Stefania Mellai <s.mellai@arduino.cc>
+
+*/
+
+.arduino-light.hljs {
+  display: block !important;
+  overflow-x: auto !important;
+  padding: 0.5em !important;
+  background: #FFFFFF !important;
+}
+
+.arduino-light.hljs,
+.arduino-light .hljs-subst {
+  color: #434f54 !important;
+}
+
+.arduino-light .hljs-keyword,
+.arduino-light .hljs-attribute,
+.arduino-light .hljs-selector-tag,
+.arduino-light .hljs-doctag,
+.arduino-light .hljs-name {
+  color: #00979D !important;
+}
+
+.arduino-light .hljs-built_in,
+.arduino-light .hljs-literal,
+.arduino-light .hljs-bullet,
+.arduino-light .hljs-code,
+.arduino-light .hljs-addition {
+  color: #D35400 !important;
+}
+
+.arduino-light .hljs-regexp,
+.arduino-light .hljs-symbol,
+.arduino-light .hljs-variable,
+.arduino-light .hljs-template-variable,
+.arduino-light .hljs-link,
+.arduino-light .hljs-selector-attr,
+.arduino-light .hljs-selector-pseudo {
+  color: #00979D !important;
+}
+
+.arduino-light .hljs-type,
+.arduino-light .hljs-string,
+.arduino-light .hljs-selector-id,
+.arduino-light .hljs-selector-class,
+.arduino-light .hljs-quote,
+.arduino-light .hljs-template-tag,
+.arduino-light .hljs-deletion {
+  color: #005C5F !important;
+}
+
+.arduino-light .hljs-title,
+.arduino-light .hljs-section {
+  color: #880000 !important;
+  font-weight: bold !important;
+}
+
+.arduino-light .hljs-comment {
+  color: rgba(149,165,166,.8) !important;
+}
+
+.arduino-light .hljs-meta-keyword {
+  color: #728E00 !important;
+}
+
+.arduino-light .hljs-meta {
+  color: #728E00 !important;
+  color: #434f54 !important;
+}
+
+.arduino-light .hljs-emphasis {
+  font-style: italic !important;
+}
+
+.arduino-light .hljs-strong {
+  font-weight: bold !important;
+}
+
+.arduino-light .hljs-function {
+  color: #728E00 !important;
+}
+
+.arduino-light .hljs-number {
+  color: #8A7B52 !important;  
+}
+/*
+Date: 17.V.2011
+Author: pumbur <pumbur@pumbur.net>
+*/
+
+.arta.hljs {
+  display: block !important;
+  overflow-x: auto !important;
+  padding: 0.5em !important;
+  background: #222 !important;
+}
+
+.arta.hljs,
+.arta .hljs-subst {
+  color: #aaa !important;
+}
+
+.arta .hljs-section {
+  color: #fff !important;
+}
+
+.arta .hljs-comment,
+.arta .hljs-quote,
+.arta .hljs-meta {
+  color: #444 !important;
+}
+
+.arta .hljs-string,
+.arta .hljs-symbol,
+.arta .hljs-bullet,
+.arta .hljs-regexp {
+  color: #ffcc33 !important;
+}
+
+.arta .hljs-number,
+.arta .hljs-addition {
+  color: #00cc66 !important;
+}
+
+.arta .hljs-built_in,
+.arta .hljs-builtin-name,
+.arta .hljs-literal,
+.arta .hljs-type,
+.arta .hljs-template-variable,
+.arta .hljs-attribute,
+.arta .hljs-link {
+  color: #32aaee !important;
+}
+
+.arta .hljs-keyword,
+.arta .hljs-selector-tag,
+.arta .hljs-name,
+.arta .hljs-selector-id,
+.arta .hljs-selector-class {
+  color: #6644aa !important;
+}
+
+.arta .hljs-title,
+.arta .hljs-variable,
+.arta .hljs-deletion,
+.arta .hljs-template-tag {
+  color: #bb1166 !important;
+}
+
+.arta .hljs-section,
+.arta .hljs-doctag,
+.arta .hljs-strong {
+  font-weight: bold !important;
+}
+
+.arta .hljs-emphasis {
+  font-style: italic !important;
+}
+/*
+
+Original style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiacs.Org>
+
+*/
+
+.ascetic.hljs {
+  display: block !important;
+  overflow-x: auto !important;
+  padding: 0.5em !important;
+  background: white !important;
+  color: black !important;
+}
+
+.ascetic .hljs-string,
+.ascetic .hljs-variable,
+.ascetic .hljs-template-variable,
+.ascetic .hljs-symbol,
+.ascetic .hljs-bullet,
+.ascetic .hljs-section,
+.ascetic .hljs-addition,
+.ascetic .hljs-attribute,
+.ascetic .hljs-link {
+  color: #888 !important;
+}
+
+.ascetic .hljs-comment,
+.ascetic .hljs-quote,
+.ascetic .hljs-meta,
+.ascetic .hljs-deletion {
+  color: #ccc !important;
+}
+
+.ascetic .hljs-keyword,
+.ascetic .hljs-selector-tag,
+.ascetic .hljs-section,
+.ascetic .hljs-name,
+.ascetic .hljs-type,
+.ascetic .hljs-strong {
+  font-weight: bold !important;
+}
+
+.ascetic .hljs-emphasis {
+  font-style: italic !important;
+}
+/* Base16 Atelier Cave Dark - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/cave) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Cave Comment */
+.atelier-cave-dark .hljs-comment,
+.atelier-cave-dark .hljs-quote {
+  color: #7e7887 !important;
+}
+
+/* Atelier-Cave Red */
+.atelier-cave-dark .hljs-variable,
+.atelier-cave-dark .hljs-template-variable,
+.atelier-cave-dark .hljs-attribute,
+.atelier-cave-dark .hljs-regexp,
+.atelier-cave-dark .hljs-link,
+.atelier-cave-dark .hljs-tag,
+.atelier-cave-dark .hljs-name,
+.atelier-cave-dark .hljs-selector-id,
+.atelier-cave-dark .hljs-selector-class {
+  color: #be4678 !important;
+}
+
+/* Atelier-Cave Orange */
+.atelier-cave-dark .hljs-number,
+.atelier-cave-dark .hljs-meta,
+.atelier-cave-dark .hljs-built_in,
+.atelier-cave-dark .hljs-builtin-name,
+.atelier-cave-dark .hljs-literal,
+.atelier-cave-dark .hljs-type,
+.atelier-cave-dark .hljs-params {
+  color: #aa573c !important;
+}
+
+/* Atelier-Cave Green */
+.atelier-cave-dark .hljs-string,
+.atelier-cave-dark .hljs-symbol,
+.atelier-cave-dark .hljs-bullet {
+  color: #2a9292 !important;
+}
+
+/* Atelier-Cave Blue */
+.atelier-cave-dark .hljs-title,
+.atelier-cave-dark .hljs-section {
+  color: #576ddb !important;
+}
+
+/* Atelier-Cave Purple */
+.atelier-cave-dark .hljs-keyword,
+.atelier-cave-dark .hljs-selector-tag {
+  color: #955ae7 !important;
+}
+
+.atelier-cave-dark .hljs-deletion,
+.atelier-cave-dark .hljs-addition {
+  color: #19171c !important;
+  display: inline-block !important;
+  width: 100% !important;
+}
+
+.atelier-cave-dark .hljs-deletion {
+  background-color: #be4678 !important;
+}
+
+.atelier-cave-dark .hljs-addition {
+  background-color: #2a9292 !important;
+}
+
+.atelier-cave-dark.hljs {
+  display: block !important;
+  overflow-x: auto !important;
+  background: #19171c !important;
+  color: #8b8792 !important;
+  padding: 0.5em !important;
+}
+
+.atelier-cave-dark .hljs-emphasis {
+  font-style: italic !important;
+}
+
+.atelier-cave-dark .hljs-strong {
+  font-weight: bold !important;
+}
+/* Base16 Atelier Cave Light - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/cave) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Cave Comment */
+.atelier-cave-light .hljs-comment,
+.atelier-cave-light .hljs-quote {
+  color: #655f6d !important;
+}
+
+/* Atelier-Cave Red */
+.atelier-cave-light .hljs-variable,
+.atelier-cave-light .hljs-template-variable,
+.atelier-cave-light .hljs-attribute,
+.atelier-cave-light .hljs-tag,
+.atelier-cave-light .hljs-name,
+.atelier-cave-light .hljs-regexp,
+.atelier-cave-light .hljs-link,
+.atelier-cave-light .hljs-name,
+.atelier-cave-light .hljs-name,
+.atelier-cave-light .hljs-selector-id,
+.atelier-cave-light .hljs-selector-class {
+  color: #be4678 !important;
+}
+
+/* Atelier-Cave Orange */
+.atelier-cave-light .hljs-number,
+.atelier-cave-light .hljs-meta,
+.atelier-cave-light .hljs-built_in,
+.atelier-cave-light .hljs-builtin-name,
+.atelier-cave-light .hljs-literal,
+.atelier-cave-light .hljs-type,
+.atelier-cave-light .hljs-params {
+  color: #aa573c !important;
+}
+
+/* Atelier-Cave Green */
+.atelier-cave-light .hljs-string,
+.atelier-cave-light .hljs-symbol,
+.atelier-cave-light .hljs-bullet {
+  color: #2a9292 !important;
+}
+
+/* Atelier-Cave Blue */
+.atelier-cave-light .hljs-title,
+.atelier-cave-light .hljs-section {
+  color: #576ddb !important;
+}
+
+/* Atelier-Cave Purple */
+.atelier-cave-light .hljs-keyword,
+.atelier-cave-light .hljs-selector-tag {
+  color: #955ae7 !important;
+}
+
+.atelier-cave-light .hljs-deletion,
+.atelier-cave-light .hljs-addition {
+  color: #19171c !important;
+  display: inline-block !important;
+  width: 100% !important;
+}
+
+.atelier-cave-light .hljs-deletion {
+  background-color: #be4678 !important;
+}
+
+.atelier-cave-light .hljs-addition {
+  background-color: #2a9292 !important;
+}
+
+.atelier-cave-light.hljs {
+  display: block !important;
+  overflow-x: auto !important;
+  background: #efecf4 !important;
+  color: #585260 !important;
+  padding: 0.5em !important;
+}
+
+.atelier-cave-light .hljs-emphasis {
+  font-style: italic !important;
+}
+
+.atelier-cave-light .hljs-strong {
+  font-weight: bold !important;
+}
+/* Base16 Atelier Dune Dark - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/dune) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Dune Comment */
+.atelier-dune-dark .hljs-comment,
+.atelier-dune-dark .hljs-quote {
+  color: #999580 !important;
+}
+
+/* Atelier-Dune Red */
+.atelier-dune-dark .hljs-variable,
+.atelier-dune-dark .hljs-template-variable,
+.atelier-dune-dark .hljs-attribute,
+.atelier-dune-dark .hljs-tag,
+.atelier-dune-dark .hljs-name,
+.atelier-dune-dark .hljs-regexp,
+.atelier-dune-dark .hljs-link,
+.atelier-dune-dark .hljs-name,
+.atelier-dune-dark .hljs-selector-id,
+.atelier-dune-dark .hljs-selector-class {
+  color: #d73737 !important;
+}
+
+/* Atelier-Dune Orange */
+.atelier-dune-dark .hljs-number,
+.atelier-dune-dark .hljs-meta,
+.atelier-dune-dark .hljs-built_in,
+.atelier-dune-dark .hljs-builtin-name,
+.atelier-dune-dark .hljs-literal,
+.atelier-dune-dark .hljs-type,
+.atelier-dune-dark .hljs-params {
+  color: #b65611 !important;
+}
+
+/* Atelier-Dune Green */
+.atelier-dune-dark .hljs-string,
+.atelier-dune-dark .hljs-symbol,
+.atelier-dune-dark .hljs-bullet {
+  color: #60ac39 !important;
+}
+
+/* Atelier-Dune Blue */
+.atelier-dune-dark .hljs-title,
+.atelier-dune-dark .hljs-section {
+  color: #6684e1 !important;
+}
+
+/* Atelier-Dune Purple */
+.atelier-dune-dark .hljs-keyword,
+.atelier-dune-dark .hljs-selector-tag {
+  color: #b854d4 !important;
+}
+
+.atelier-dune-dark.hljs {
+  display: block !important;
+  overflow-x: auto !important;
+  background: #20201d !important;
+  color: #a6a28c !important;
+  padding: 0.5em !important;
+}
+
+.atelier-dune-dark .hljs-emphasis {
+  font-style: italic !important;
+}
+
+.atelier-dune-dark .hljs-strong {
+  font-weight: bold !important;
+}
+/* Base16 Atelier Dune Light - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/dune) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Dune Comment */
+.atelier-dune-light .hljs-comment,
+.atelier-dune-light .hljs-quote {
+  color: #7d7a68 !important;
+}
+
+/* Atelier-Dune Red */
+.atelier-dune-light .hljs-variable,
+.atelier-dune-light .hljs-template-variable,
+.atelier-dune-light .hljs-attribute,
+.atelier-dune-light .hljs-tag,
+.atelier-dune-light .hljs-name,
+.atelier-dune-light .hljs-regexp,
+.atelier-dune-light .hljs-link,
+.atelier-dune-light .hljs-name,
+.atelier-dune-light .hljs-selector-id,
+.atelier-dune-light .hljs-selector-class {
+  color: #d73737 !important;
+}
+
+/* Atelier-Dune Orange */
+.atelier-dune-light .hljs-number,
+.atelier-dune-light .hljs-meta,
+.atelier-dune-light .hljs-built_in,
+.atelier-dune-light .hljs-builtin-name,
+.atelier-dune-light .hljs-literal,
+.atelier-dune-light .hljs-type,
+.atelier-dune-light .hljs-params {
+  color: #b65611 !important;
+}
+
+/* Atelier-Dune Green */
+.atelier-dune-light .hljs-string,
+.atelier-dune-light .hljs-symbol,
+.atelier-dune-light .hljs-bullet {
+  color: #60ac39 !important;
+}
+
+/* Atelier-Dune Blue */
+.atelier-dune-light .hljs-title,
+.atelier-dune-light .hljs-section {
+  color: #6684e1 !important;
+}
+
+/* Atelier-Dune Purple */
+.atelier-dune-light .hljs-keyword,
+.atelier-dune-light .hljs-selector-tag {
+  color: #b854d4 !important;
+}
+
+.atelier-dune-light.hljs {
+  display: block !important;
+  overflow-x: auto !important;
+  background: #fefbec !important;
+  color: #6e6b5e !important;
+  padding: 0.5em !important;
+}
+
+.atelier-dune-light .hljs-emphasis {
+  font-style: italic !important;
+}
+
+.atelier-dune-light .hljs-strong {
+  font-weight: bold !important;
+}
+/* Base16 Atelier Estuary Dark - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/estuary) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Estuary Comment */
+.atelier-estuary-dark .hljs-comment,
+.atelier-estuary-dark .hljs-quote {
+  color: #878573 !important;
+}
+
+/* Atelier-Estuary Red */
+.atelier-estuary-dark .hljs-variable,
+.atelier-estuary-dark .hljs-template-variable,
+.atelier-estuary-dark .hljs-attribute,
+.atelier-estuary-dark .hljs-tag,
+.atelier-estuary-dark .hljs-name,
+.atelier-estuary-dark .hljs-regexp,
+.atelier-estuary-dark .hljs-link,
+.atelier-estuary-dark .hljs-name,
+.atelier-estuary-dark .hljs-selector-id,
+.atelier-estuary-dark .hljs-selector-class {
+  color: #ba6236 !important;
+}
+
+/* Atelier-Estuary Orange */
+.atelier-estuary-dark .hljs-number,
+.atelier-estuary-dark .hljs-meta,
+.atelier-estuary-dark .hljs-built_in,
+.atelier-estuary-dark .hljs-builtin-name,
+.atelier-estuary-dark .hljs-literal,
+.atelier-estuary-dark .hljs-type,
+.atelier-estuary-dark .hljs-params {
+  color: #ae7313 !important;
+}
+
+/* Atelier-Estuary Green */
+.atelier-estuary-dark .hljs-string,
+.atelier-estuary-dark .hljs-symbol,
+.atelier-estuary-dark .hljs-bullet {
+  color: #7d9726 !important;
+}
+
+/* Atelier-Estuary Blue */
+.atelier-estuary-dark .hljs-title,
+.atelier-estuary-dark .hljs-section {
+  color: #36a166 !important;
+}
+
+/* Atelier-Estuary Purple */
+.atelier-estuary-dark .hljs-keyword,
+.atelier-estuary-dark .hljs-selector-tag {
+  color: #5f9182 !important;
+}
+
+.atelier-estuary-dark .hljs-deletion,
+.atelier-estuary-dark .hljs-addition {
+  color: #22221b !important;
+  display: inline-block !important;
+  width: 100% !important;
+}
+
+.atelier-estuary-dark .hljs-deletion {
+  background-color: #ba6236 !important;
+}
+
+.atelier-estuary-dark .hljs-addition {
+  background-color: #7d9726 !important;
+}
+
+.atelier-estuary-dark.hljs {
+  display: block !important;
+  overflow-x: auto !important;
+  background: #22221b !important;
+  color: #929181 !important;
+  padding: 0.5em !important;
+}
+
+.atelier-estuary-dark .hljs-emphasis {
+  font-style: italic !important;
+}
+
+.atelier-estuary-dark .hljs-strong {
+  font-weight: bold !important;
+}
+/* Base16 Atelier Estuary Light - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/estuary) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Estuary Comment */
+.atelier-estuary-light .hljs-comment,
+.atelier-estuary-light .hljs-quote {
+  color: #6c6b5a !important;
+}
+
+/* Atelier-Estuary Red */
+.atelier-estuary-light .hljs-variable,
+.atelier-estuary-light .hljs-template-variable,
+.atelier-estuary-light .hljs-attribute,
+.atelier-estuary-light .hljs-tag,
+.atelier-estuary-light .hljs-name,
+.atelier-estuary-light .hljs-regexp,
+.atelier-estuary-light .hljs-link,
+.atelier-estuary-light .hljs-name,
+.atelier-estuary-light .hljs-selector-id,
+.atelier-estuary-light .hljs-selector-class {
+  color: #ba6236 !important;
+}
+
+/* Atelier-Estuary Orange */
+.atelier-estuary-light .hljs-number,
+.atelier-estuary-light .hljs-meta,
+.atelier-estuary-light .hljs-built_in,
+.atelier-estuary-light .hljs-builtin-name,
+.atelier-estuary-light .hljs-literal,
+.atelier-estuary-light .hljs-type,
+.atelier-estuary-light .hljs-params {
+  color: #ae7313 !important;
+}
+
+/* Atelier-Estuary Green */
+.atelier-estuary-light .hljs-string,
+.atelier-estuary-light .hljs-symbol,
+.atelier-estuary-light .hljs-bullet {
+  color: #7d9726 !important;
+}
+
+/* Atelier-Estuary Blue */
+.atelier-estuary-light .hljs-title,
+.atelier-estuary-light .hljs-section {
+  color: #36a166 !important;
+}
+
+/* Atelier-Estuary Purple */
+.atelier-estuary-light .hljs-keyword,
+.atelier-estuary-light .hljs-selector-tag {
+  color: #5f9182 !important;
+}
+
+.atelier-estuary-light .hljs-deletion,
+.atelier-estuary-light .hljs-addition {
+  color: #22221b !important;
+  display: inline-block !important;
+  width: 100% !important;
+}
+
+.atelier-estuary-light .hljs-deletion {
+  background-color: #ba6236 !important;
+}
+
+.atelier-estuary-light .hljs-addition {
+  background-color: #7d9726 !important;
+}
+
+.atelier-estuary-light.hljs {
+  display: block !important;
+  overflow-x: auto !important;
+  background: #f4f3ec !important;
+  color: #5f5e4e !important;
+  padding: 0.5em !important;
+}
+
+.atelier-estuary-light .hljs-emphasis {
+  font-style: italic !important;
+}
+
+.atelier-estuary-light .hljs-strong {
+  font-weight: bold !important;
+}
+/* Base16 Atelier Forest Dark - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/forest) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Forest Comment */
+.atelier-forest-dark .hljs-comment,
+.atelier-forest-dark .hljs-quote {
+  color: #9c9491 !important;
+}
+
+/* Atelier-Forest Red */
+.atelier-forest-dark .hljs-variable,
+.atelier-forest-dark .hljs-template-variable,
+.atelier-forest-dark .hljs-attribute,
+.atelier-forest-dark .hljs-tag,
+.atelier-forest-dark .hljs-name,
+.atelier-forest-dark .hljs-regexp,
+.atelier-forest-dark .hljs-link,
+.atelier-forest-dark .hljs-name,
+.atelier-forest-dark .hljs-selector-id,
+.atelier-forest-dark .hljs-selector-class {
+  color: #f22c40 !important;
+}
+
+/* Atelier-Forest Orange */
+.atelier-forest-dark .hljs-number,
+.atelier-forest-dark .hljs-meta,
+.atelier-forest-dark .hljs-built_in,
+.atelier-forest-dark .hljs-builtin-name,
+.atelier-forest-dark .hljs-literal,
+.atelier-forest-dark .hljs-type,
+.atelier-forest-dark .hljs-params {
+  color: #df5320 !important;
+}
+
+/* Atelier-Forest Green */
+.atelier-forest-dark .hljs-string,
+.atelier-forest-dark .hljs-symbol,
+.atelier-forest-dark .hljs-bullet {
+  color: #7b9726 !important;
+}
+
+/* Atelier-Forest Blue */
+.atelier-forest-dark .hljs-title,
+.atelier-forest-dark .hljs-section {
+  color: #407ee7 !important;
+}
+
+/* Atelier-Forest Purple */
+.atelier-forest-dark .hljs-keyword,
+.atelier-forest-dark .hljs-selector-tag {
+  color: #6666ea !important;
+}
+
+.atelier-forest-dark.hljs {
+  display: block !important;
+  overflow-x: auto !important;
+  background: #1b1918 !important;
+  color: #a8a19f !important;
+  padding: 0.5em !important;
+}
+
+.atelier-forest-dark .hljs-emphasis {
+  font-style: italic !important;
+}
+
+.atelier-forest-dark .hljs-strong {
+  font-weight: bold !important;
+}
+/* Base16 Atelier Forest Light - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/forest) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Forest Comment */
+.atelier-forest-light .hljs-comment,
+.atelier-forest-light .hljs-quote {
+  color: #766e6b !important;
+}
+
+/* Atelier-Forest Red */
+.atelier-forest-light .hljs-variable,
+.atelier-forest-light .hljs-template-variable,
+.atelier-forest-light .hljs-attribute,
+.atelier-forest-light .hljs-tag,
+.atelier-forest-light .hljs-name,
+.atelier-forest-light .hljs-regexp,
+.atelier-forest-light .hljs-link,
+.atelier-forest-light .hljs-name,
+.atelier-forest-light .hljs-selector-id,
+.atelier-forest-light .hljs-selector-class {
+  color: #f22c40 !important;
+}
+
+/* Atelier-Forest Orange */
+.atelier-forest-light .hljs-number,
+.atelier-forest-light .hljs-meta,
+.atelier-forest-light .hljs-built_in,
+.atelier-forest-light .hljs-builtin-name,
+.atelier-forest-light .hljs-literal,
+.atelier-forest-light .hljs-type,
+.atelier-forest-light .hljs-params {
+  color: #df5320 !important;
+}
+
+/* Atelier-Forest Green */
+.atelier-forest-light .hljs-string,
+.atelier-forest-light .hljs-symbol,
+.atelier-forest-light .hljs-bullet {
+  color: #7b9726 !important;
+}
+
+/* Atelier-Forest Blue */
+.atelier-forest-light .hljs-title,
+.atelier-forest-light .hljs-section {
+  color: #407ee7 !important;
+}
+
+/* Atelier-Forest Purple */
+.atelier-forest-light .hljs-keyword,
+.atelier-forest-light .hljs-selector-tag {
+  color: #6666ea !important;
+}
+
+.atelier-forest-light.hljs {
+  display: block !important;
+  overflow-x: auto !important;
+  background: #f1efee !important;
+  color: #68615e !important;
+  padding: 0.5em !important;
+}
+
+.atelier-forest-light .hljs-emphasis {
+  font-style: italic !important;
+}
+
+.atelier-forest-light .hljs-strong {
+  font-weight: bold !important;
+}
+/* Base16 Atelier Heath Dark - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/heath) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Heath Comment */
+.atelier-heath-dark .hljs-comment,
+.atelier-heath-dark .hljs-quote {
+  color: #9e8f9e !important;
+}
+
+/* Atelier-Heath Red */
+.atelier-heath-dark .hljs-variable,
+.atelier-heath-dark .hljs-template-variable,
+.atelier-heath-dark .hljs-attribute,
+.atelier-heath-dark .hljs-tag,
+.atelier-heath-dark .hljs-name,
+.atelier-heath-dark .hljs-regexp,
+.atelier-heath-dark .hljs-link,
+.atelier-heath-dark .hljs-name,
+.atelier-heath-dark .hljs-selector-id,
+.atelier-heath-dark .hljs-selector-class {
+  color: #ca402b !important;
+}
+
+/* Atelier-Heath Orange */
+.atelier-heath-dark .hljs-number,
+.atelier-heath-dark .hljs-meta,
+.atelier-heath-dark .hljs-built_in,
+.atelier-heath-dark .hljs-builtin-name,
+.atelier-heath-dark .hljs-literal,
+.atelier-heath-dark .hljs-type,
+.atelier-heath-dark .hljs-params {
+  color: #a65926 !important;
+}
+
+/* Atelier-Heath Green */
+.atelier-heath-dark .hljs-string,
+.atelier-heath-dark .hljs-symbol,
+.atelier-heath-dark .hljs-bullet {
+  color: #918b3b !important;
+}
+
+/* Atelier-Heath Blue */
+.atelier-heath-dark .hljs-title,
+.atelier-heath-dark .hljs-section {
+  color: #516aec !important;
+}
+
+/* Atelier-Heath Purple */
+.atelier-heath-dark .hljs-keyword,
+.atelier-heath-dark .hljs-selector-tag {
+  color: #7b59c0 !important;
+}
+
+.atelier-heath-dark.hljs {
+  display: block !important;
+  overflow-x: auto !important;
+  background: #1b181b !important;
+  color: #ab9bab !important;
+  padding: 0.5em !important;
+}
+
+.atelier-heath-dark .hljs-emphasis {
+  font-style: italic !important;
+}
+
+.atelier-heath-dark .hljs-strong {
+  font-weight: bold !important;
+}
+/* Base16 Atelier Heath Light - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/heath) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Heath Comment */
+.atelier-heath-light .hljs-comment,
+.atelier-heath-light .hljs-quote {
+  color: #776977 !important;
+}
+
+/* Atelier-Heath Red */
+.atelier-heath-light .hljs-variable,
+.atelier-heath-light .hljs-template-variable,
+.atelier-heath-light .hljs-attribute,
+.atelier-heath-light .hljs-tag,
+.atelier-heath-light .hljs-name,
+.atelier-heath-light .hljs-regexp,
+.atelier-heath-light .hljs-link,
+.atelier-heath-light .hljs-name,
+.atelier-heath-light .hljs-selector-id,
+.atelier-heath-light .hljs-selector-class {
+  color: #ca402b !important;
+}
+
+/* Atelier-Heath Orange */
+.atelier-heath-light .hljs-number,
+.atelier-heath-light .hljs-meta,
+.atelier-heath-light .hljs-built_in,
+.atelier-heath-light .hljs-builtin-name,
+.atelier-heath-light .hljs-literal,
+.atelier-heath-light .hljs-type,
+.atelier-heath-light .hljs-params {
+  color: #a65926 !important;
+}
+
+/* Atelier-Heath Green */
+.atelier-heath-light .hljs-string,
+.atelier-heath-light .hljs-symbol,
+.atelier-heath-light .hljs-bullet {
+  color: #918b3b !important;
+}
+
+/* Atelier-Heath Blue */
+.atelier-heath-light .hljs-title,
+.atelier-heath-light .hljs-section {
+  color: #516aec !important;
+}
+
+/* Atelier-Heath Purple */
+.atelier-heath-light .hljs-keyword,
+.atelier-heath-light .hljs-selector-tag {
+  color: #7b59c0 !important;
+}
+
+.atelier-heath-light.hljs {
+  display: block !important;
+  overflow-x: auto !important;
+  background: #f7f3f7 !important;
+  color: #695d69 !important;
+  padding: 0.5em !important;
+}
+
+.atelier-heath-light .hljs-emphasis {
+  font-style: italic !important;
+}
+
+.atelier-heath-light .hljs-strong {
+  font-weight: bold !important;
+}
+/* Base16 Atelier Lakeside Dark - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/lakeside) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Lakeside Comment */
+.atelier-lakeside-dark .hljs-comment,
+.atelier-lakeside-dark .hljs-quote {
+  color: #7195a8 !important;
+}
+
+/* Atelier-Lakeside Red */
+.atelier-lakeside-dark .hljs-variable,
+.atelier-lakeside-dark .hljs-template-variable,
+.atelier-lakeside-dark .hljs-attribute,
+.atelier-lakeside-dark .hljs-tag,
+.atelier-lakeside-dark .hljs-name,
+.atelier-lakeside-dark .hljs-regexp,
+.atelier-lakeside-dark .hljs-link,
+.atelier-lakeside-dark .hljs-name,
+.atelier-lakeside-dark .hljs-selector-id,
+.atelier-lakeside-dark .hljs-selector-class {
+  color: #d22d72 !important;
+}
+
+/* Atelier-Lakeside Orange */
+.atelier-lakeside-dark .hljs-number,
+.atelier-lakeside-dark .hljs-meta,
+.atelier-lakeside-dark .hljs-built_in,
+.atelier-lakeside-dark .hljs-builtin-name,
+.atelier-lakeside-dark .hljs-literal,
+.atelier-lakeside-dark .hljs-type,
+.atelier-lakeside-dark .hljs-params {
+  color: #935c25 !important;
+}
+
+/* Atelier-Lakeside Green */
+.atelier-lakeside-dark .hljs-string,
+.atelier-lakeside-dark .hljs-symbol,
+.atelier-lakeside-dark .hljs-bullet {
+  color: #568c3b !important;
+}
+
+/* Atelier-Lakeside Blue */
+.atelier-lakeside-dark .hljs-title,
+.atelier-lakeside-dark .hljs-section {
+  color: #257fad !important;
+}
+
+/* Atelier-Lakeside Purple */
+.atelier-lakeside-dark .hljs-keyword,
+.atelier-lakeside-dark .hljs-selector-tag {
+  color: #6b6bb8 !important;
+}
+
+.atelier-lakeside-dark.hljs {
+  display: block !important;
+  overflow-x: auto !important;
+  background: #161b1d !important;
+  color: #7ea2b4 !important;
+  padding: 0.5em !important;
+}
+
+.atelier-lakeside-dark .hljs-emphasis {
+  font-style: italic !important;
+}
+
+.atelier-lakeside-dark .hljs-strong {
+  font-weight: bold !important;
+}
+/* Base16 Atelier Lakeside Light - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/lakeside) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Lakeside Comment */
+.atelier-lakeside-light .hljs-comment,
+.atelier-lakeside-light .hljs-quote {
+  color: #5a7b8c !important;
+}
+
+/* Atelier-Lakeside Red */
+.atelier-lakeside-light .hljs-variable,
+.atelier-lakeside-light .hljs-template-variable,
+.atelier-lakeside-light .hljs-attribute,
+.atelier-lakeside-light .hljs-tag,
+.atelier-lakeside-light .hljs-name,
+.atelier-lakeside-light .hljs-regexp,
+.atelier-lakeside-light .hljs-link,
+.atelier-lakeside-light .hljs-name,
+.atelier-lakeside-light .hljs-selector-id,
+.atelier-lakeside-light .hljs-selector-class {
+  color: #d22d72 !important;
+}
+
+/* Atelier-Lakeside Orange */
+.atelier-lakeside-light .hljs-number,
+.atelier-lakeside-light .hljs-meta,
+.atelier-lakeside-light .hljs-built_in,
+.atelier-lakeside-light .hljs-builtin-name,
+.atelier-lakeside-light .hljs-literal,
+.atelier-lakeside-light .hljs-type,
+.atelier-lakeside-light .hljs-params {
+  color: #935c25 !important;
+}
+
+/* Atelier-Lakeside Green */
+.atelier-lakeside-light .hljs-string,
+.atelier-lakeside-light .hljs-symbol,
+.atelier-lakeside-light .hljs-bullet {
+  color: #568c3b !important;
+}
+
+/* Atelier-Lakeside Blue */
+.atelier-lakeside-light .hljs-title,
+.atelier-lakeside-light .hljs-section {
+  color: #257fad !important;
+}
+
+/* Atelier-Lakeside Purple */
+.atelier-lakeside-light .hljs-keyword,
+.atelier-lakeside-light .hljs-selector-tag {
+  color: #6b6bb8 !important;
+}
+
+.atelier-lakeside-light.hljs {
+  display: block !important;
+  overflow-x: auto !important;
+  background: #ebf8ff !important;
+  color: #516d7b !important;
+  padding: 0.5em !important;
+}
+
+.atelier-lakeside-light .hljs-emphasis {
+  font-style: italic !important;
+}
+
+.atelier-lakeside-light .hljs-strong {
+  font-weight: bold !important;
+}
+/* Base16 Atelier Plateau Dark - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/plateau) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Plateau Comment */
+.atelier-plateau-dark .hljs-comment,
+.atelier-plateau-dark .hljs-quote {
+  color: #7e7777 !important;
+}
+
+/* Atelier-Plateau Red */
+.atelier-plateau-dark .hljs-variable,
+.atelier-plateau-dark .hljs-template-variable,
+.atelier-plateau-dark .hljs-attribute,
+.atelier-plateau-dark .hljs-tag,
+.atelier-plateau-dark .hljs-name,
+.atelier-plateau-dark .hljs-regexp,
+.atelier-plateau-dark .hljs-link,
+.atelier-plateau-dark .hljs-name,
+.atelier-plateau-dark .hljs-selector-id,
+.atelier-plateau-dark .hljs-selector-class {
+  color: #ca4949 !important;
+}
+
+/* Atelier-Plateau Orange */
+.atelier-plateau-dark .hljs-number,
+.atelier-plateau-dark .hljs-meta,
+.atelier-plateau-dark .hljs-built_in,
+.atelier-plateau-dark .hljs-builtin-name,
+.atelier-plateau-dark .hljs-literal,
+.atelier-plateau-dark .hljs-type,
+.atelier-plateau-dark .hljs-params {
+  color: #b45a3c !important;
+}
+
+/* Atelier-Plateau Green */
+.atelier-plateau-dark .hljs-string,
+.atelier-plateau-dark .hljs-symbol,
+.atelier-plateau-dark .hljs-bullet {
+  color: #4b8b8b !important;
+}
+
+/* Atelier-Plateau Blue */
+.atelier-plateau-dark .hljs-title,
+.atelier-plateau-dark .hljs-section {
+  color: #7272ca !important;
+}
+
+/* Atelier-Plateau Purple */
+.atelier-plateau-dark .hljs-keyword,
+.atelier-plateau-dark .hljs-selector-tag {
+  color: #8464c4 !important;
+}
+
+.atelier-plateau-dark .hljs-deletion,
+.atelier-plateau-dark .hljs-addition {
+  color: #1b1818 !important;
+  display: inline-block !important;
+  width: 100% !important;
+}
+
+.atelier-plateau-dark .hljs-deletion {
+  background-color: #ca4949 !important;
+}
+
+.atelier-plateau-dark .hljs-addition {
+  background-color: #4b8b8b !important;
+}
+
+.atelier-plateau-dark.hljs {
+  display: block !important;
+  overflow-x: auto !important;
+  background: #1b1818 !important;
+  color: #8a8585 !important;
+  padding: 0.5em !important;
+}
+
+.atelier-plateau-dark .hljs-emphasis {
+  font-style: italic !important;
+}
+
+.atelier-plateau-dark .hljs-strong {
+  font-weight: bold !important;
+}
+/* Base16 Atelier Plateau Light - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/plateau) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Plateau Comment */
+.atelier-plateau-light .hljs-comment,
+.atelier-plateau-light .hljs-quote {
+  color: #655d5d !important;
+}
+
+/* Atelier-Plateau Red */
+.atelier-plateau-light .hljs-variable,
+.atelier-plateau-light .hljs-template-variable,
+.atelier-plateau-light .hljs-attribute,
+.atelier-plateau-light .hljs-tag,
+.atelier-plateau-light .hljs-name,
+.atelier-plateau-light .hljs-regexp,
+.atelier-plateau-light .hljs-link,
+.atelier-plateau-light .hljs-name,
+.atelier-plateau-light .hljs-selector-id,
+.atelier-plateau-light .hljs-selector-class {
+  color: #ca4949 !important;
+}
+
+/* Atelier-Plateau Orange */
+.atelier-plateau-light .hljs-number,
+.atelier-plateau-light .hljs-meta,
+.atelier-plateau-light .hljs-built_in,
+.atelier-plateau-light .hljs-builtin-name,
+.atelier-plateau-light .hljs-literal,
+.atelier-plateau-light .hljs-type,
+.atelier-plateau-light .hljs-params {
+  color: #b45a3c !important;
+}
+
+/* Atelier-Plateau Green */
+.atelier-plateau-light .hljs-string,
+.atelier-plateau-light .hljs-symbol,
+.atelier-plateau-light .hljs-bullet {
+  color: #4b8b8b !important;
+}
+
+/* Atelier-Plateau Blue */
+.atelier-plateau-light .hljs-title,
+.atelier-plateau-light .hljs-section {
+  color: #7272ca !important;
+}
+
+/* Atelier-Plateau Purple */
+.atelier-plateau-light .hljs-keyword,
+.atelier-plateau-light .hljs-selector-tag {
+  color: #8464c4 !important;
+}
+
+.atelier-plateau-light .hljs-deletion,
+.atelier-plateau-light .hljs-addition {
+  color: #1b1818 !important;
+  display: inline-block !important;
+  width: 100% !important;
+}
+
+.atelier-plateau-light .hljs-deletion {
+  background-color: #ca4949 !important;
+}
+
+.atelier-plateau-light .hljs-addition {
+  background-color: #4b8b8b !important;
+}
+
+.atelier-plateau-light.hljs {
+  display: block !important;
+  overflow-x: auto !important;
+  background: #f4ecec !important;
+  color: #585050 !important;
+  padding: 0.5em !important;
+}
+
+.atelier-plateau-light .hljs-emphasis {
+  font-style: italic !important;
+}
+
+.atelier-plateau-light .hljs-strong {
+  font-weight: bold !important;
+}
+/* Base16 Atelier Savanna Dark - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/savanna) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Savanna Comment */
+.atelier-savanna-dark .hljs-comment,
+.atelier-savanna-dark .hljs-quote {
+  color: #78877d !important;
+}
+
+/* Atelier-Savanna Red */
+.atelier-savanna-dark .hljs-variable,
+.atelier-savanna-dark .hljs-template-variable,
+.atelier-savanna-dark .hljs-attribute,
+.atelier-savanna-dark .hljs-tag,
+.atelier-savanna-dark .hljs-name,
+.atelier-savanna-dark .hljs-regexp,
+.atelier-savanna-dark .hljs-link,
+.atelier-savanna-dark .hljs-name,
+.atelier-savanna-dark .hljs-selector-id,
+.atelier-savanna-dark .hljs-selector-class {
+  color: #b16139 !important;
+}
+
+/* Atelier-Savanna Orange */
+.atelier-savanna-dark .hljs-number,
+.atelier-savanna-dark .hljs-meta,
+.atelier-savanna-dark .hljs-built_in,
+.atelier-savanna-dark .hljs-builtin-name,
+.atelier-savanna-dark .hljs-literal,
+.atelier-savanna-dark .hljs-type,
+.atelier-savanna-dark .hljs-params {
+  color: #9f713c !important;
+}
+
+/* Atelier-Savanna Green */
+.atelier-savanna-dark .hljs-string,
+.atelier-savanna-dark .hljs-symbol,
+.atelier-savanna-dark .hljs-bullet {
+  color: #489963 !important;
+}
+
+/* Atelier-Savanna Blue */
+.atelier-savanna-dark .hljs-title,
+.atelier-savanna-dark .hljs-section {
+  color: #478c90 !important;
+}
+
+/* Atelier-Savanna Purple */
+.atelier-savanna-dark .hljs-keyword,
+.atelier-savanna-dark .hljs-selector-tag {
+  color: #55859b !important;
+}
+
+.atelier-savanna-dark .hljs-deletion,
+.atelier-savanna-dark .hljs-addition {
+  color: #171c19 !important;
+  display: inline-block !important;
+  width: 100% !important;
+}
+
+.atelier-savanna-dark .hljs-deletion {
+  background-color: #b16139 !important;
+}
+
+.atelier-savanna-dark .hljs-addition {
+  background-color: #489963 !important;
+}
+
+.atelier-savanna-dark.hljs {
+  display: block !important;
+  overflow-x: auto !important;
+  background: #171c19 !important;
+  color: #87928a !important;
+  padding: 0.5em !important;
+}
+
+.atelier-savanna-dark .hljs-emphasis {
+  font-style: italic !important;
+}
+
+.atelier-savanna-dark .hljs-strong {
+  font-weight: bold !important;
+}
+/* Base16 Atelier Savanna Light - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/savanna) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Savanna Comment */
+.atelier-savanna-light .hljs-comment,
+.atelier-savanna-light .hljs-quote {
+  color: #5f6d64 !important;
+}
+
+/* Atelier-Savanna Red */
+.atelier-savanna-light .hljs-variable,
+.atelier-savanna-light .hljs-template-variable,
+.atelier-savanna-light .hljs-attribute,
+.atelier-savanna-light .hljs-tag,
+.atelier-savanna-light .hljs-name,
+.atelier-savanna-light .hljs-regexp,
+.atelier-savanna-light .hljs-link,
+.atelier-savanna-light .hljs-name,
+.atelier-savanna-light .hljs-selector-id,
+.atelier-savanna-light .hljs-selector-class {
+  color: #b16139 !important;
+}
+
+/* Atelier-Savanna Orange */
+.atelier-savanna-light .hljs-number,
+.atelier-savanna-light .hljs-meta,
+.atelier-savanna-light .hljs-built_in,
+.atelier-savanna-light .hljs-builtin-name,
+.atelier-savanna-light .hljs-literal,
+.atelier-savanna-light .hljs-type,
+.atelier-savanna-light .hljs-params {
+  color: #9f713c !important;
+}
+
+/* Atelier-Savanna Green */
+.atelier-savanna-light .hljs-string,
+.atelier-savanna-light .hljs-symbol,
+.atelier-savanna-light .hljs-bullet {
+  color: #489963 !important;
+}
+
+/* Atelier-Savanna Blue */
+.atelier-savanna-light .hljs-title,
+.atelier-savanna-light .hljs-section {
+  color: #478c90 !important;
+}
+
+/* Atelier-Savanna Purple */
+.atelier-savanna-light .hljs-keyword,
+.atelier-savanna-light .hljs-selector-tag {
+  color: #55859b !important;
+}
+
+.atelier-savanna-light .hljs-deletion,
+.atelier-savanna-light .hljs-addition {
+  color: #171c19 !important;
+  display: inline-block !important;
+  width: 100% !important;
+}
+
+.atelier-savanna-light .hljs-deletion {
+  background-color: #b16139 !important;
+}
+
+.atelier-savanna-light .hljs-addition {
+  background-color: #489963 !important;
+}
+
+.atelier-savanna-light.hljs {
+  display: block !important;
+  overflow-x: auto !important;
+  background: #ecf4ee !important;
+  color: #526057 !important;
+  padding: 0.5em !important;
+}
+
+.atelier-savanna-light .hljs-emphasis {
+  font-style: italic !important;
+}
+
+.atelier-savanna-light .hljs-strong {
+  font-weight: bold !important;
+}
+/* Base16 Atelier Seaside Dark - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/seaside) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Seaside Comment */
+.atelier-seaside-dark .hljs-comment,
+.atelier-seaside-dark .hljs-quote {
+  color: #809980 !important;
+}
+
+/* Atelier-Seaside Red */
+.atelier-seaside-dark .hljs-variable,
+.atelier-seaside-dark .hljs-template-variable,
+.atelier-seaside-dark .hljs-attribute,
+.atelier-seaside-dark .hljs-tag,
+.atelier-seaside-dark .hljs-name,
+.atelier-seaside-dark .hljs-regexp,
+.atelier-seaside-dark .hljs-link,
+.atelier-seaside-dark .hljs-name,
+.atelier-seaside-dark .hljs-selector-id,
+.atelier-seaside-dark .hljs-selector-class {
+  color: #e6193c !important;
+}
+
+/* Atelier-Seaside Orange */
+.atelier-seaside-dark .hljs-number,
+.atelier-seaside-dark .hljs-meta,
+.atelier-seaside-dark .hljs-built_in,
+.atelier-seaside-dark .hljs-builtin-name,
+.atelier-seaside-dark .hljs-literal,
+.atelier-seaside-dark .hljs-type,
+.atelier-seaside-dark .hljs-params {
+  color: #87711d !important;
+}
+
+/* Atelier-Seaside Green */
+.atelier-seaside-dark .hljs-string,
+.atelier-seaside-dark .hljs-symbol,
+.atelier-seaside-dark .hljs-bullet {
+  color: #29a329 !important;
+}
+
+/* Atelier-Seaside Blue */
+.atelier-seaside-dark .hljs-title,
+.atelier-seaside-dark .hljs-section {
+  color: #3d62f5 !important;
+}
+
+/* Atelier-Seaside Purple */
+.atelier-seaside-dark .hljs-keyword,
+.atelier-seaside-dark .hljs-selector-tag {
+  color: #ad2bee !important;
+}
+
+.atelier-seaside-dark.hljs {
+  display: block !important;
+  overflow-x: auto !important;
+  background: #131513 !important;
+  color: #8ca68c !important;
+  padding: 0.5em !important;
+}
+
+.atelier-seaside-dark .hljs-emphasis {
+  font-style: italic !important;
+}
+
+.atelier-seaside-dark .hljs-strong {
+  font-weight: bold !important;
+}
+/* Base16 Atelier Seaside Light - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/seaside) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Seaside Comment */
+.atelier-seaside-light .hljs-comment,
+.atelier-seaside-light .hljs-quote {
+  color: #687d68 !important;
+}
+
+/* Atelier-Seaside Red */
+.atelier-seaside-light .hljs-variable,
+.atelier-seaside-light .hljs-template-variable,
+.atelier-seaside-light .hljs-attribute,
+.atelier-seaside-light .hljs-tag,
+.atelier-seaside-light .hljs-name,
+.atelier-seaside-light .hljs-regexp,
+.atelier-seaside-light .hljs-link,
+.atelier-seaside-light .hljs-name,
+.atelier-seaside-light .hljs-selector-id,
+.atelier-seaside-light .hljs-selector-class {
+  color: #e6193c !important;
+}
+
+/* Atelier-Seaside Orange */
+.atelier-seaside-light .hljs-number,
+.atelier-seaside-light .hljs-meta,
+.atelier-seaside-light .hljs-built_in,
+.atelier-seaside-light .hljs-builtin-name,
+.atelier-seaside-light .hljs-literal,
+.atelier-seaside-light .hljs-type,
+.atelier-seaside-light .hljs-params {
+  color: #87711d !important;
+}
+
+/* Atelier-Seaside Green */
+.atelier-seaside-light .hljs-string,
+.atelier-seaside-light .hljs-symbol,
+.atelier-seaside-light .hljs-bullet {
+  color: #29a329 !important;
+}
+
+/* Atelier-Seaside Blue */
+.atelier-seaside-light .hljs-title,
+.atelier-seaside-light .hljs-section {
+  color: #3d62f5 !important;
+}
+
+/* Atelier-Seaside Purple */
+.atelier-seaside-light .hljs-keyword,
+.atelier-seaside-light .hljs-selector-tag {
+  color: #ad2bee !important;
+}
+
+.atelier-seaside-light.hljs {
+  display: block !important;
+  overflow-x: auto !important;
+  background: #f4fbf4 !important;
+  color: #5e6e5e !important;
+  padding: 0.5em !important;
+}
+
+.atelier-seaside-light .hljs-emphasis {
+  font-style: italic !important;
+}
+
+.atelier-seaside-light .hljs-strong {
+  font-weight: bold !important;
+}
+/* Base16 Atelier Sulphurpool Dark - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/sulphurpool) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Sulphurpool Comment */
+.atelier-sulphurpool-dark .hljs-comment,
+.atelier-sulphurpool-dark .hljs-quote {
+  color: #898ea4 !important;
+}
+
+/* Atelier-Sulphurpool Red */
+.atelier-sulphurpool-dark .hljs-variable,
+.atelier-sulphurpool-dark .hljs-template-variable,
+.atelier-sulphurpool-dark .hljs-attribute,
+.atelier-sulphurpool-dark .hljs-tag,
+.atelier-sulphurpool-dark .hljs-name,
+.atelier-sulphurpool-dark .hljs-regexp,
+.atelier-sulphurpool-dark .hljs-link,
+.atelier-sulphurpool-dark .hljs-name,
+.atelier-sulphurpool-dark .hljs-selector-id,
+.atelier-sulphurpool-dark .hljs-selector-class {
+  color: #c94922 !important;
+}
+
+/* Atelier-Sulphurpool Orange */
+.atelier-sulphurpool-dark .hljs-number,
+.atelier-sulphurpool-dark .hljs-meta,
+.atelier-sulphurpool-dark .hljs-built_in,
+.atelier-sulphurpool-dark .hljs-builtin-name,
+.atelier-sulphurpool-dark .hljs-literal,
+.atelier-sulphurpool-dark .hljs-type,
+.atelier-sulphurpool-dark .hljs-params {
+  color: #c76b29 !important;
+}
+
+/* Atelier-Sulphurpool Green */
+.atelier-sulphurpool-dark .hljs-string,
+.atelier-sulphurpool-dark .hljs-symbol,
+.atelier-sulphurpool-dark .hljs-bullet {
+  color: #ac9739 !important;
+}
+
+/* Atelier-Sulphurpool Blue */
+.atelier-sulphurpool-dark .hljs-title,
+.atelier-sulphurpool-dark .hljs-section {
+  color: #3d8fd1 !important;
+}
+
+/* Atelier-Sulphurpool Purple */
+.atelier-sulphurpool-dark .hljs-keyword,
+.atelier-sulphurpool-dark .hljs-selector-tag {
+  color: #6679cc !important;
+}
+
+.atelier-sulphurpool-dark.hljs {
+  display: block !important;
+  overflow-x: auto !important;
+  background: #202746 !important;
+  color: #979db4 !important;
+  padding: 0.5em !important;
+}
+
+.atelier-sulphurpool-dark .hljs-emphasis {
+  font-style: italic !important;
+}
+
+.atelier-sulphurpool-dark .hljs-strong {
+  font-weight: bold !important;
+}
+/* Base16 Atelier Sulphurpool Light - Theme */
+/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/sulphurpool) */
+/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
+
+/* Atelier-Sulphurpool Comment */
+.atelier-sulphurpool-light .hljs-comment,
+.atelier-sulphurpool-light .hljs-quote {
+  color: #6b7394 !important;
+}
+
+/* Atelier-Sulphurpool Red */
+.atelier-sulphurpool-light .hljs-variable,
+.atelier-sulphurpool-light .hljs-template-variable,
+.atelier-sulphurpool-light .hljs-attribute,
+.atelier-sulphurpool-light .hljs-tag,
+.atelier-sulphurpool-light .hljs-name,
+.atelier-sulphurpool-light .hljs-regexp,
+.atelier-sulphurpool-light .hljs-link,
+.atelier-sulphurpool-light .hljs-name,
+.atelier-sulphurpool-light .hljs-selector-id,
+.atelier-sulphurpool-light .hljs-selector-class {
+  color: #c94922 !important;
+}
+
+/* Atelier-Sulphurpool Orange */
+.atelier-sulphurpool-light .hljs-number,
+.atelier-sulphurpool-light .hljs-meta,
+.atelier-sulphurpool-light .hljs-built_in,
+.atelier-sulphurpool-light .hljs-builtin-name,
+.atelier-sulphurpool-light .hljs-literal,
+.atelier-sulphurpool-light .hljs-type,
+.atelier-sulphurpool-light .hljs-params {
+  color: #c76b29 !important;
+}
+
+/* Atelier-Sulphurpool Green */
+.atelier-sulphurpool-light .hljs-string,
+.atelier-sulphurpool-light .hljs-symbol,
+.atelier-sulphurpool-light .hljs-bullet {
+  color: #ac9739 !important;
+}
+
+/* Atelier-Sulphurpool Blue */
+.atelier-sulphurpool-light .hljs-title,
+.atelier-sulphurpool-light .hljs-section {
+  color: #3d8fd1 !important;
+}
+
+/* Atelier-Sulphurpool Purple */
+.atelier-sulphurpool-light .hljs-keyword,
+.atelier-sulphurpool-light .hljs-selector-tag {
+  color: #6679cc !important;
+}
+
+.atelier-sulphurpool-light.hljs {
+  display: block !important;
+  overflow-x: auto !important;
+  background: #f5f7ff !important;
+  color: #5e6687 !important;
+  padding: 0.5em !important;
+}
+
+.atelier-sulphurpool-light .hljs-emphasis {
+  font-style: italic !important;
+}
+
+.atelier-sulphurpool-light .hljs-strong {
+  font-weight: bold !important;
+}
+/*
+
+Brown Paper style from goldblog.com.ua (c) Zaripov Yura <yur4ik7@ukr.net>
+
+*/
+
+.brown-paper.hljs {
+  display: block !important;
+  overflow-x: auto !important;
+  padding: 0.5em !important;
+  background:#b7a68e url(./brown-papersq.png) !important;
+}
+
+.brown-paper .hljs-keyword,
+.brown-paper .hljs-selector-tag,
+.brown-paper .hljs-literal {
+  color:#005599 !important;
+  font-weight:bold !important;
+}
+
+.brown-paper.hljs,
+.brown-paper .hljs-subst {
+  color: #363c69 !important;
+}
+
+.brown-paper .hljs-string,
+.brown-paper .hljs-title,
+.brown-paper .hljs-section,
+.brown-paper .hljs-type,
+.brown-paper .hljs-attribute,
+.brown-paper .hljs-symbol,
+.brown-paper .hljs-bullet,
+.brown-paper .hljs-built_in,
+.brown-paper .hljs-addition,
+.brown-paper .hljs-variable,
+.brown-paper .hljs-template-tag,
+.brown-paper .hljs-template-variable,
+.brown-paper .hljs-link,
+.brown-paper .hljs-name {
+  color: #2c009f !important;
+}
+
+.brown-paper .hljs-comment,
+.brown-paper .hljs-quote,
+.brown-paper .hljs-meta,
+.brown-paper .hljs-deletion {
+  color: #802022 !important;
+}
+
+.brown-paper .hljs-keyword,
+.brown-paper .hljs-selector-tag,
+.brown-paper .hljs-literal,
+.brown-paper .hljs-doctag,
+.brown-paper .hljs-title,
+.brown-paper .hljs-section,
+.brown-paper .hljs-type,
+.brown-paper .hljs-name,
+.brown-paper .hljs-strong {
+  font-weight: bold !important;
+}
+
+.brown-paper .hljs-emphasis {
+  font-style: italic !important;
+}
+/*
+  codepen.io Embed Theme
+  Author: Justin Perry <http://github.com/ourmaninamsterdam>
+  Original theme - https://github.com/chriskempson/tomorrow-theme
+*/
+
+.codepen-embed.hljs {
+  display: block !important;
+  overflow-x: auto !important;
+  padding: 0.5em !important;
+  background: #222 !important;
+  color: #fff !important;
+}
+
+.codepen-embed .hljs-comment,
+.codepen-embed .hljs-quote {
+  color: #777 !important;
+}
+
+.codepen-embed .hljs-variable,
+.codepen-embed .hljs-template-variable,
+.codepen-embed .hljs-tag,
+.codepen-embed .hljs-regexp,
+.codepen-embed .hljs-meta,
+.codepen-embed .hljs-number,
+.codepen-embed .hljs-built_in,
+.codepen-embed .hljs-builtin-name,
+.codepen-embed .hljs-literal,
+.codepen-embed .hljs-params,
+.codepen-embed .hljs-symbol,
+.codepen-embed .hljs-bullet,
+.codepen-embed .hljs-link,
+.codepen-embed .hljs-deletion {
+  color: #ab875d !important;
+}
+
+.codepen-embed .hljs-section,
+.codepen-embed .hljs-title,
+.codepen-embed .hljs-name,
+.codepen-embed .hljs-selector-id,
+.codepen-embed .hljs-selector-class,
+.codepen-embed .hljs-type,
+.codepen-embed .hljs-attribute {
+  color: #9b869b !important;
+}
+
+.codepen-embed .hljs-string,
+.codepen-embed .hljs-keyword,
+.codepen-embed .hljs-selector-tag,
+.codepen-embed .hljs-addition {
+  color: #8f9c6c !important;
+}
+
+.codepen-embed .hljs-emphasis {
+  font-style: italic !important;
+}
+
+.codepen-embed .hljs-strong {
+  font-weight: bold !important;
+}
+/*
+
+Colorbrewer theme
+Original: https://github.com/mbostock/colorbrewer-theme (c) Mike Bostock <mike@ocks.org>
+Ported by Fabrício Tavares de Oliveira
+
+*/
+
+.color-brewer.hljs {
+  display: block !important;
+  overflow-x: auto !important;
+  padding: 0.5em !important;
+  background: #fff !important;
+}
+
+.color-brewer.hljs,
+.color-brewer .hljs-subst {
+  color: #000 !important;
+}
+
+.color-brewer .hljs-string,
+.color-brewer .hljs-meta,
+.color-brewer .hljs-symbol,
+.color-brewer .hljs-template-tag,
+.color-brewer .hljs-template-variable,
+.color-brewer .hljs-addition {
+  color: #756bb1 !important;
+}
+
+.color-brewer .hljs-comment,
+.color-brewer .hljs-quote {
+  color: #636363 !important;
+}
+
+.color-brewer .hljs-number,
+.color-brewer .hljs-regexp,
+.color-brewer .hljs-literal,
+.color-brewer .hljs-bullet,
+.color-brewer .hljs-link {
+  color: #31a354 !important;
+}
+
+.color-brewer .hljs-deletion,
+.color-brewer .hljs-variable {
+  color: #88f !important;
+}
+
+
+
+.color-brewer .hljs-keyword,
+.color-brewer .hljs-selector-tag,
+.color-brewer .hljs-title,
+.color-brewer .hljs-section,
+.color-brewer .hljs-built_in,
+.color-brewer .hljs-doctag,
+.color-brewer .hljs-type,
+.color-brewer .hljs-tag,
+.color-brewer .hljs-name,
+.color-brewer .hljs-selector-id,
+.color-brewer .hljs-selector-class,
+.color-brewer .hljs-strong {
+  color: #3182bd !important;
+}
+
+.color-brewer .hljs-emphasis {
+  font-style: italic !important;
+}
+
+.color-brewer .hljs-attribute {
+  color: #e6550d !important;
+}
+/*
+
+Dark style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiacs.Org>
+
+*/
+
+.dark.hljs {
+  display: block !important;
+  overflow-x: auto !important;
+  padding: 0.5em !important;
+  background: #444 !important;
+}
+
+.dark .hljs-keyword,
+.dark .hljs-selector-tag,
+.dark .hljs-literal,
+.dark .hljs-section,
+.dark .hljs-link {
+  color: white !important;
+}
+
+.dark.hljs,
+.dark .hljs-subst {
+  color: #ddd !important;
+}
+
+.dark .hljs-string,
+.dark .hljs-title,
+.dark .hljs-name,
+.dark .hljs-type,
+.dark .hljs-attribute,
+.dark .hljs-symbol,
+.dark .hljs-bullet,
+.dark .hljs-built_in,
+.dark .hljs-addition,
+.dark .hljs-variable,
+.dark .hljs-template-tag,
+.dark .hljs-template-variable {
+  color: #d88 !important;
+}
+
+.dark .hljs-comment,
+.dark .hljs-quote,
+.dark .hljs-deletion,
+.dark .hljs-meta {
+  color: #777 !important;
+}
+
+.dark .hljs-keyword,
+.dark .hljs-selector-tag,
+.dark .hljs-literal,
+.dark .hljs-title,
+.dark .hljs-section,
+.dark .hljs-doctag,
+.dark .hljs-type,
+.dark .hljs-name,
+.dark .hljs-strong {
+  font-weight: bold !important;
+}
+
+.dark .hljs-emphasis {
+  font-style: italic !important;
+}
+/*
+
+Darkula color scheme from the JetBrains family of IDEs
+
+*/
+
+
+.darkula.hljs {
+  display: block !important;
+  overflow-x: auto !important;
+  padding: 0.5em !important;
+  background: #2b2b2b !important;
+}
+
+.darkula.hljs {
+  color: #bababa !important;
+}
+
+.darkula .hljs-strong,
+.darkula .hljs-emphasis {
+  color: #a8a8a2 !important;
+}
+
+.darkula .hljs-bullet,
+.darkula .hljs-quote,
+.darkula .hljs-link,
+.darkula .hljs-number,
+.darkula .hljs-regexp,
+.darkula .hljs-literal {
+  color: #6896ba !important;
+}
+
+.darkula .hljs-code,
+.darkula .hljs-selector-class {
+  color: #a6e22e !important;
+}
+
+.darkula .hljs-emphasis {
+  font-style: italic !important;
+}
+
+.darkula .hljs-keyword,
+.darkula .hljs-selector-tag,
+.darkula .hljs-section,
+.darkula .hljs-attribute,
+.darkula .hljs-name,
+.darkula .hljs-variable {
+  color: #cb7832 !important;
+}
+
+.darkula .hljs-params {
+  color: #b9b9b9 !important;
+}
+
+.darkula .hljs-string,
+.darkula .hljs-subst,
+.darkula .hljs-type,
+.darkula .hljs-built_in,
+.darkula .hljs-builtin-name,
+.darkula .hljs-symbol,
+.darkula .hljs-selector-id,
+.darkula .hljs-selector-attr,
+.darkula .hljs-selector-pseudo,
+.darkula .hljs-template-tag,
+.darkula .hljs-template-variable,
+.darkula .hljs-addition {
+  color: #e0c46c !important;
+}
+
+.darkula .hljs-comment,
+.darkula .hljs-deletion,
+.darkula .hljs-meta {
+  color: #7f7f7f !important;
+}
+/*
+
+Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
+
+*/
+
+.default.hljs {
+  display: block !important;
+  overflow-x: auto !important;
+  padding: 0.5em !important;
+  background: #F0F0F0 !important;
+}
+
+
+/* Base color: saturation 0 !important; */
+
+.default.hljs,
+.default .hljs-subst {
+  color: #444 !important;
+}
+
+.default .hljs-comment {
+  color: #888888 !important;
+}
+
+.default .hljs-keyword,
+.default .hljs-attribute,
+.default .hljs-selector-tag,
+.default .hljs-meta-keyword,
+.default .hljs-doctag,
+.default .hljs-name {
+  font-weight: bold !important;
+}
+
+
+/* User color: hue: 0 */
+
+.default .hljs-type,
+.default .hljs-string,
+.default .hljs-number,
+.default .hljs-selector-id,
+.default .hljs-selector-class,
+.default .hljs-quote,
+.default .hljs-template-tag,
+.default .hljs-deletion {
+  color: #880000 !important;
+}
+
+.default .hljs-title,
+.default .hljs-section {
+  color: #880000 !important;
+  font-weight: bold !important;
+}
+
+.default .hljs-regexp,
+.default .hljs-symbol,
+.default .hljs-variable,
+.default .hljs-template-variable,
+.default .hljs-link,
+.default .hljs-selector-attr,
+.default .hljs-selector-pseudo {
+  color: #BC6060 !important;
+}
+
+
+/* Language color: hue: 90 !important; */
+
+.default .hljs-literal {
+  color: #78A960 !important;
+}
+
+.default .hljs-built_in,
+.default .hljs-bullet,
+.default .hljs-code,
+.default .hljs-addition {
+  color: #397300 !important;
+}
+
+
+/* Meta color: hue: 200 */
+
+.default .hljs-meta {
+  color: #1f7199 !important;
+}
+
+.default .hljs-meta-string {
+  color: #4d99bf !important;
+}
+
+
+/* Misc effects */
+
+.default .hljs-emphasis {
+  font-style: italic !important;
+}
+
+.default .hljs-strong {
+  font-weight: bold !important;
+}
+/*
+Docco style used in http://jashkenas.github.com/docco/ converted by Simon Madine (@thingsinjars)
+*/
+
+.docco.hljs {
+  display: block !important;
+  overflow-x: auto !important;
+  padding: 0.5em !important;
+  color: #000 !important;
+  background: #f8f8ff !important;
+}
+
+.docco .hljs-comment,
+.docco .hljs-quote {
+  color: #408080 !important;
+  font-style: italic !important;
+}
+
+.docco .hljs-keyword,
+.docco .hljs-selector-tag,
+.docco .hljs-literal,
+.docco .hljs-subst {
+  color: #954121 !important;
+}
+
+.docco .hljs-number {
+  color: #40a070 !important;
+}
+
+.docco .hljs-string,
+.docco .hljs-doctag {
+  color: #219161 !important;
+}
+
+.docco .hljs-selector-id,
+.docco .hljs-selector-class,
+.docco .hljs-section,
+.docco .hljs-type {
+  color: #19469d !important;
+}
+
+.docco .hljs-params {
+  color: #00f !important;
+}
+
+.docco .hljs-title {
+  color: #458 !important;
+  font-weight: bold !important;
+}
+
+.docco .hljs-tag,
+.docco .hljs-name,
+.docco .hljs-attribute {
+  color: #000080 !important;
+  font-weight: normal !important;
+}
+
+.docco .hljs-variable,
+.docco .hljs-template-variable {
+  color: #008080 !important;
+}
+
+.docco .hljs-regexp,
+.docco .hljs-link {
+  color: #b68 !important;
+}
+
+.docco .hljs-symbol,
+.docco .hljs-bullet {
+  color: #990073 !important;
+}
+
+.docco .hljs-built_in,
+.docco .hljs-builtin-name {
+  color: #0086b3 !important;
+}
+
+.docco .hljs-meta {
+  color: #999 !important;
+  font-weight: bold !important;
+}
+
+.docco .hljs-deletion {
+  background: #fdd !important;
+}
+
+.docco .hljs-addition {
+  background: #dfd !important;
+}
+
+.docco .hljs-emphasis {
+  font-style: italic !important;
+}
+
+.docco .hljs-strong {
+  font-weight: bold !important;
+}
+/*
+
+Dracula Theme v1.2.0
+
+https://github.com/zenorocha/dracula-theme
+
+Copyright 2015, All rights reserved
+
+Code licensed under the MIT license
+http://zenorocha.mit-license.org
+
+@author Éverton Ribeiro <nuxlli@gmail.com>
+@author Zeno Rocha <hi@zenorocha.com>
+
+*/
+
+.dracula.hljs {
+  display: block !important;
+  overflow-x: auto !important;
+  padding: 0.5em !important;
+  background: #282a36 !important;
+}
+
+.dracula .hljs-keyword,
+.dracula .hljs-selector-tag,
+.dracula .hljs-literal,
+.dracula .hljs-section,
+.dracula .hljs-link {
+  color: #8be9fd !important;
+}
+
+.dracula .hljs-function .hljs-keyword {
+  color: #ff79c6 !important;
+}
+
+.dracula.hljs,
+.dracula .hljs-subst {
+  color: #f8f8f2 !important;
+}
+
+.dracula .hljs-string,
+.dracula .hljs-title,
+.dracula .hljs-name,
+.dracula .hljs-type,
+.dracula .hljs-attribute,
+.dracula .hljs-symbol,
+.dracula .hljs-bullet,
+.dracula .hljs-addition,
+.dracula .hljs-variable,
+.dracula .hljs-template-tag,
+.dracula .hljs-template-variable {
+  color: #f1fa8c !important;
+}
+
+.dracula .hljs-comment,
+.dracula .hljs-quote,
+.dracula .hljs-deletion,
+.dracula .hljs-meta {
+  color: #6272a4 !important;
+}
+
+.dracula .hljs-keyword,
+.dracula .hljs-selector-tag,
+.dracula .hljs-literal,
+.dracula .hljs-title,
+.dracula .hljs-section,
+.dracula .hljs-doctag,
+.dracula .hljs-type,
+.dracula .hljs-name,
+.dracula .hljs-strong {
+  font-weight: bold !important;
+}
+
+.dracula .hljs-emphasis {
+  font-style: italic !important;
+}
+/*
+
+FAR Style (c) MajestiC <majestic2k@gmail.com>
+
+*/
+
+.far.hljs {
+  display: block !important;
+  overflow-x: auto !important;
+  padding: 0.5em !important;
+  background: #000080 !important;
+}
+
+.far.hljs,
+.far .hljs-subst {
+  color: #0ff !important;
+}
+
+.far .hljs-string,
+.far .hljs-attribute,
+.far .hljs-symbol,
+.far .hljs-bullet,
+.far .hljs-built_in,
+.far .hljs-builtin-name,
+.far .hljs-template-tag,
+.far .hljs-template-variable,
+.far .hljs-addition {
+  color: #ff0 !important;
+}
+
+.far .hljs-keyword,
+.far .hljs-selector-tag,
+.far .hljs-section,
+.far .hljs-type,
+.far .hljs-name,
+.far .hljs-selector-id,
+.far .hljs-selector-class,
+.far .hljs-variable {
+  color: #fff !important;
+}
+
+.far .hljs-comment,
+.far .hljs-quote,
+.far .hljs-doctag,
+.far .hljs-deletion {
+  color: #888 !important;
+}
+
+.far .hljs-number,
+.far .hljs-regexp,
+.far .hljs-literal,
+.far .hljs-link {
+  color: #0f0 !important;
+}
+
+.far .hljs-meta {
+  color: #008080 !important;
+}
+
+.far .hljs-keyword,
+.far .hljs-selector-tag,
+.far .hljs-title,
+.far .hljs-section,
+.far .hljs-name,
+.far .hljs-strong {
+  font-weight: bold !important;
+}
+
+.far .hljs-emphasis {
+  font-style: italic !important;
+}
+/*
+Description: Foundation 4 docs style for highlight.js
+Author: Dan Allen <dan.j.allen@gmail.com>
+Website: http://foundation.zurb.com/docs/
+Version: 1.0
+Date: 2013-04-02
+*/
+
+.foundation.hljs {
+  display: block !important;
+  overflow-x: auto !important;
+  padding: 0.5em !important;
+  background: #eee !important; color: black
+}
+
+.foundation .hljs-link,
+.foundation .hljs-emphasis,
+.foundation .hljs-attribute,
+.foundation .hljs-addition {
+  color: #070 !important;
+}
+
+.foundation .hljs-emphasis {
+  font-style: italic !important;
+}
+
+.foundation .hljs-strong,
+.foundation .hljs-string,
+.foundation .hljs-deletion {
+  color: #d14 !important;
+}
+
+.foundation .hljs-strong {
+  font-weight: bold !important;
+}
+
+.foundation .hljs-quote,
+.foundation .hljs-comment {
+  color: #998 !important;
+  font-style: italic !important;
+}
+
+.foundation .hljs-section,
+.foundation .hljs-title {
+  color: #900 !important;
+}
+
+.foundation .hljs-class .hljs-title,
+.foundation .hljs-type {
+  color: #458 !important;
+}
+
+.foundation .hljs-variable,
+.foundation .hljs-template-variable {
+  color: #336699 !important;
+}
+
+.foundation .hljs-bullet {
+  color: #997700 !important;
+}
+
+.foundation .hljs-meta {
+  color: #3344bb !important;
+}
+
+.foundation .hljs-code,
+.foundation .hljs-number,
+.foundation .hljs-literal,
+.foundation .hljs-keyword,
+.foundation .hljs-selector-tag {
+  color: #099 !important;
+}
+
+.foundation .hljs-regexp {
+  background-color: #fff0ff !important;
+  color: #880088 !important;
+}
+
+.foundation .hljs-symbol {
+  color: #990073 !important;
+}
+
+.foundation .hljs-tag,
+.foundation .hljs-name,
+.foundation .hljs-selector-id,
+.foundation .hljs-selector-class {
+  color: #007700 !important;
+}
+/**
+ * GitHub Gist Theme
+ * Author : Louis Barranqueiro - https://github.com/LouisBarranqueiro
+ */
+
+.github-gist.hljs {
+  display: block !important;
+  background: white !important;
+  padding: 0.5em !important;
+  color: #333333 !important;
+  overflow-x: auto !important;
+}
+
+.github-gist .hljs-comment,
+.github-gist .hljs-meta {
+  color: #969896 !important;
+}
+
+.github-gist .hljs-string,
+.github-gist .hljs-variable,
+.github-gist .hljs-template-variable,
+.github-gist .hljs-strong,
+.github-gist .hljs-emphasis,
+.github-gist .hljs-quote {
+  color: #df5000 !important;
+}
+
+.github-gist .hljs-keyword,
+.github-gist .hljs-selector-tag,
+.github-gist .hljs-type {
+  color: #a71d5d !important;
+}
+
+.github-gist .hljs-literal,
+.github-gist .hljs-symbol,
+.github-gist .hljs-bullet,
+.github-gist .hljs-attribute {
+  color: #0086b3 !important;
+}
+
+.github-gist .hljs-section,
+.github-gist .hljs-name {
+  color: #63a35c !important;
+}
+
+.github-gist .hljs-tag {
+  color: #333333 !important;
+}
+
+.github-gist .hljs-title,
+.github-gist .hljs-attr,
+.github-gist .hljs-selector-id,
+.github-gist .hljs-selector-class,
+.github-gist .hljs-selector-attr,
+.github-gist .hljs-selector-pseudo {
+  color: #795da3 !important;
+}
+
+.github-gist .hljs-addition {
+  color: #55a532 !important;
+  background-color: #eaffea !important;
+}
+
+.github-gist .hljs-deletion {
+  color: #bd2c00 !important;
+  background-color: #ffecec !important;
+}
+
+.github-gist .hljs-link {
+  text-decoration: underline !important;
+}
+/*
+
+github.com style (c) Vasily Polovnyov <vast@whiteants.net>
+
+*/
+
+.github.hljs {
+  display: block !important;
+  overflow-x: auto !important;
+  padding: 0.5em !important;
+  color: #333 !important;
+  background: #f8f8f8 !important;
+}
+
+.github .hljs-comment,
+.github .hljs-quote {
+  color: #998 !important;
+  font-style: italic !important;
+}
+
+.github .hljs-keyword,
+.github .hljs-selector-tag,
+.github .hljs-subst {
+  color: #333 !important;
+  font-weight: bold !important;
+}
+
+.github .hljs-number,
+.github .hljs-literal,
+.github .hljs-variable,
+.github .hljs-template-variable,
+.github .hljs-tag .hljs-attr {
+  color: #008080 !important;
+}
+
+.github .hljs-string,
+.github .hljs-doctag {
+  color: #d14 !important;
+}
+
+.github .hljs-title,
+.github .hljs-section,
+.github .hljs-selector-id {
+  color: #900 !important;
+  font-weight: bold !important;
+}
+
+.github .hljs-subst {
+  font-weight: normal !important;
+}
+
+.github .hljs-type,
+.github .hljs-class .hljs-title {
+  color: #458 !important;
+  font-weight: bold !important;
+}
+
+.github .hljs-tag,
+.github .hljs-name,
+.github .hljs-attribute {
+  color: #000080 !important;
+  font-weight: normal !important;
+}
+
+.github .hljs-regexp,
+.github .hljs-link {
+  color: #009926 !important;
+}
+
+.github .hljs-symbol,
+.github .hljs-bullet {
+  color: #990073 !important;
+}
+
+.github .hljs-built_in,
+.github .hljs-builtin-name {
+  color: #0086b3 !important;
+}
+
+.github .hljs-meta {
+  color: #999 !important;
+  font-weight: bold !important;
+}
+
+.github .hljs-deletion {
+  background: #fdd !important;
+}
+
+.github .hljs-addition {
+  background: #dfd !important;
+}
+
+.github .hljs-emphasis {
+  font-style: italic !important;
+}
+
+.github .hljs-strong {
+  font-weight: bold !important;
+}
+/*
+
+Google Code style (c) Aahan Krish <geekpanth3r@gmail.com>
+
+*/
+
+.googlecode.hljs {
+  display: block !important;
+  overflow-x: auto !important;
+  padding: 0.5em !important;
+  background: white !important;
+  color: black !important;
+}
+
+.googlecode .hljs-comment,
+.googlecode .hljs-quote {
+  color: #800 !important;
+}
+
+.googlecode .hljs-keyword,
+.googlecode .hljs-selector-tag,
+.googlecode .hljs-section,
+.googlecode .hljs-title,
+.googlecode .hljs-name {
+  color: #008 !important;
+}
+
+.googlecode .hljs-variable,
+.googlecode .hljs-template-variable {
+  color: #660 !important;
+}
+
+.googlecode .hljs-string,
+.googlecode .hljs-selector-attr,
+.googlecode .hljs-selector-pseudo,
+.googlecode .hljs-regexp {
+  color: #080 !important;
+}
+
+.googlecode .hljs-literal,
+.googlecode .hljs-symbol,
+.googlecode .hljs-bullet,
+.googlecode .hljs-meta,
+.googlecode .hljs-number,
+.googlecode .hljs-link {
+  color: #066 !important;
+}
+
+.googlecode .hljs-title,
+.googlecode .hljs-doctag,
+.googlecode .hljs-type,
+.googlecode .hljs-attr,
+.googlecode .hljs-built_in,
+.googlecode .hljs-builtin-name,
+.googlecode .hljs-params {
+  color: #606 !important;
+}
+
+.googlecode .hljs-attribute,
+.googlecode .hljs-subst {
+  color: #000 !important;
+}
+
+.googlecode .hljs-formula {
+  background-color: #eee !important;
+  font-style: italic !important;
+}
+
+.googlecode .hljs-selector-id,
+.googlecode .hljs-selector-class {
+  color: #9B703F
+}
+
+.googlecode .hljs-addition {
+  background-color: #baeeba !important;
+}
+
+.googlecode .hljs-deletion {
+  background-color: #ffc8bd !important;
+}
+
+.googlecode .hljs-doctag,
+.googlecode .hljs-strong {
+  font-weight: bold !important;
+}
+
+.googlecode .hljs-emphasis {
+  font-style: italic !important;
+}
+/*
+
+grayscale style (c) MY Sun <simonmysun@gmail.com>
+
+*/
+
+.grayscale.hljs {
+  display: block !important;
+  overflow-x: auto !important;
+  padding: 0.5em !important;
+  color: #333 !important;
+  background: #fff !important;
+}
+
+.grayscale .hljs-comment,
+.grayscale .hljs-quote {
+  color: #777 !important;
+  font-style: italic !important;
+}
+
+.grayscale .hljs-keyword,
+.grayscale .hljs-selector-tag,
+.grayscale .hljs-subst {
+  color: #333 !important;
+  font-weight: bold !important;
+}
+
+.grayscale .hljs-number,
+.grayscale .hljs-literal {
+  color: #777 !important;
+}
+
+.grayscale .hljs-string,
+.grayscale .hljs-doctag,
+.grayscale .hljs-formula {
+  color: #333 !important;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAJ0lEQVQIW2O8e/fufwYGBgZBQUEQxcCIIfDu3Tuwivfv30NUoAsAALHpFMMLqZlPAAAAAElFTkSuQmCC) repeat !important;
+}
+
+.grayscale .hljs-title,
+.grayscale .hljs-section,
+.grayscale .hljs-selector-id {
+  color: #000 !important;
+  font-weight: bold !important;
+}
+
+.grayscale .hljs-subst {
+  font-weight: normal !important;
+}
+
+.grayscale .hljs-class .hljs-title,
+.grayscale .hljs-type,
+.grayscale .hljs-name {
+  color: #333 !important;
+  font-weight: bold !important;
+}
+
+.grayscale .hljs-tag {
+  color: #333 !important;
+}
+
+.grayscale .hljs-regexp {
+    color: #333 !important;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAICAYAAADA+m62AAAAPUlEQVQYV2NkQAN37979r6yszIgujiIAU4RNMVwhuiQ6H6wQl3XI4oy4FMHcCJPHcDS6J2A2EqUQpJhohQDexSef15DBCwAAAABJRU5ErkJggg==) repeat !important;
+}
+
+.grayscale .hljs-symbol,
+.grayscale .hljs-bullet,
+.grayscale .hljs-link {
+  color: #000 !important;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAKElEQVQIW2NkQAO7d+/+z4gsBhJwdXVlhAvCBECKwIIwAbhKZBUwBQA6hBpm5efZsgAAAABJRU5ErkJggg==) repeat !important;
+}
+
+.grayscale .hljs-built_in,
+.grayscale .hljs-builtin-name {
+  color: #000 !important;
+  text-decoration: underline !important;
+}
+
+.grayscale .hljs-meta {
+  color: #999 !important;
+  font-weight: bold !important;
+}
+
+.grayscale .hljs-deletion {
+  color: #fff !important;
+  background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAADCAYAAABS3WWCAAAAE0lEQVQIW2MMDQ39zzhz5kwIAQAyxweWgUHd1AAAAABJRU5ErkJggg==) repeat !important;
+}
+
+.grayscale .hljs-addition {
+  color: #000 !important;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAALUlEQVQYV2N89+7dfwYk8P79ewZBQUFkIQZGOiu6e/cuiptQHAPl0NtNxAQBAM97Oejj3Dg7AAAAAElFTkSuQmCC) repeat !important;
+
+}
+
+.grayscale .hljs-emphasis {
+  font-style: italic !important;
+}
+
+.grayscale .hljs-strong {
+  font-weight: bold !important;
+}
+/*
+
+Gruvbox style (dark) (c) Pavel Pertsev (original style at https://github.com/morhetz/gruvbox)
+
+*/
+
+.gruvbox-dark.hljs {
+  display: block !important;
+  overflow-x: auto !important;
+  padding: 0.5em !important;
+  background: #282828 !important;
+}
+
+.gruvbox-dark.hljs,
+.gruvbox-dark .hljs-subst {
+  color: #ebdbb2 !important;
+}
+
+/* Gruvbox Red */
+.gruvbox-dark .hljs-deletion,
+.gruvbox-dark .hljs-formula,
+.gruvbox-dark .hljs-keyword,
+.gruvbox-dark .hljs-link,
+.gruvbox-dark .hljs-selector-tag {
+  color: #fb4934 !important;
+}
+
+/* Gruvbox Blue */
+.gruvbox-dark .hljs-built_in,
+.gruvbox-dark .hljs-emphasis,
+.gruvbox-dark .hljs-name,
+.gruvbox-dark .hljs-quote,
+.gruvbox-dark .hljs-strong,
+.gruvbox-dark .hljs-title,
+.gruvbox-dark .hljs-variable {
+  color: #83a598 !important;
+}
+
+/* Gruvbox Yellow */
+.gruvbox-dark .hljs-attr,
+.gruvbox-dark .hljs-params,
+.gruvbox-dark .hljs-template-tag,
+.gruvbox-dark .hljs-type {
+  color: #fabd2f !important;
+}
+
+/* Gruvbox Purple */
+.gruvbox-dark .hljs-builtin-name,
+.gruvbox-dark .hljs-doctag,
+.gruvbox-dark .hljs-literal,
+.gruvbox-dark .hljs-number {
+  color: #8f3f71 !important;
+}
+
+/* Gruvbox Orange */
+.gruvbox-dark .hljs-code,
+.gruvbox-dark .hljs-meta,
+.gruvbox-dark .hljs-regexp,
+.gruvbox-dark .hljs-selector-id,
+.gruvbox-dark .hljs-template-variable {
+  color: #fe8019 !important;
+}
+
+/* Gruvbox Green */
+.gruvbox-dark .hljs-addition,
+.gruvbox-dark .hljs-meta-string,
+.gruvbox-dark .hljs-section,
+.gruvbox-dark .hljs-selector-attr,
+.gruvbox-dark .hljs-selector-class,
+.gruvbox-dark .hljs-string,
+.gruvbox-dark .hljs-symbol {
+  color: #b8bb26 !important;
+}
+
+/* Gruvbox Aqua */
+.gruvbox-dark .hljs-attribute,
+.gruvbox-dark .hljs-bullet,
+.gruvbox-dark .hljs-class,
+.gruvbox-dark .hljs-function,
+.gruvbox-dark .hljs-function .hljs-keyword,
+.gruvbox-dark .hljs-meta-keyword,
+.gruvbox-dark .hljs-selector-pseudo,
+.gruvbox-dark .hljs-tag {
+  color: #8ec07c !important;
+}
+
+/* Gruvbox Gray */
+.gruvbox-dark .hljs-comment {
+  color: #928374 !important;
+}
+
+/* Gruvbox Purple */
+.gruvbox-dark .hljs-link_label,
+.gruvbox-dark .hljs-literal,
+.gruvbox-dark .hljs-number {
+  color: #d3869b !important;
+}
+
+.gruvbox-dark .hljs-comment,
+.gruvbox-dark .hljs-emphasis {
+  font-style: italic !important;
+}
+
+.gruvbox-dark .hljs-section,
+.gruvbox-dark .hljs-strong,
+.gruvbox-dark .hljs-tag {
+  font-weight: bold !important;
+}
+/*
+
+Gruvbox style (light) (c) Pavel Pertsev (original style at https://github.com/morhetz/gruvbox)
+
+*/
+
+.gruvbox-light.hljs {
+  display: block !important;
+  overflow-x: auto !important;
+  padding: 0.5em !important;
+  background: #fbf1c7 !important;
+}
+
+.gruvbox-light.hljs,
+.gruvbox-light .hljs-subst {
+  color: #3c3836 !important;
+}
+
+/* Gruvbox Red */
+.gruvbox-light .hljs-deletion,
+.gruvbox-light .hljs-formula,
+.gruvbox-light .hljs-keyword,
+.gruvbox-light .hljs-link,
+.gruvbox-light .hljs-selector-tag {
+  color: #9d0006 !important;
+}
+
+/* Gruvbox Blue */
+.gruvbox-light .hljs-built_in,
+.gruvbox-light .hljs-emphasis,
+.gruvbox-light .hljs-name,
+.gruvbox-light .hljs-quote,
+.gruvbox-light .hljs-strong,
+.gruvbox-light .hljs-title,
+.gruvbox-light .hljs-variable {
+  color: #076678 !important;
+}
+
+/* Gruvbox Yellow */
+.gruvbox-light .hljs-attr,
+.gruvbox-light .hljs-params,
+.gruvbox-light .hljs-template-tag,
+.gruvbox-light .hljs-type {
+  color: #b57614 !important;
+}
+
+/* Gruvbox Purple */
+.gruvbox-light .hljs-builtin-name,
+.gruvbox-light .hljs-doctag,
+.gruvbox-light .hljs-literal,
+.gruvbox-light .hljs-number {
+  color: #8f3f71 !important;
+}
+
+/* Gruvbox Orange */
+.gruvbox-light .hljs-code,
+.gruvbox-light .hljs-meta,
+.gruvbox-light .hljs-regexp,
+.gruvbox-light .hljs-selector-id,
+.gruvbox-light .hljs-template-variable {
+  color: #af3a03 !important;
+}
+
+/* Gruvbox Green */
+.gruvbox-light .hljs-addition,
+.gruvbox-light .hljs-meta-string,
+.gruvbox-light .hljs-section,
+.gruvbox-light .hljs-selector-attr,
+.gruvbox-light .hljs-selector-class,
+.gruvbox-light .hljs-string,
+.gruvbox-light .hljs-symbol {
+  color: #79740e !important;
+}
+
+/* Gruvbox Aqua */
+.gruvbox-light .hljs-attribute,
+.gruvbox-light .hljs-bullet,
+.gruvbox-light .hljs-class,
+.gruvbox-light .hljs-function,
+.gruvbox-light .hljs-function .hljs-keyword,
+.gruvbox-light .hljs-meta-keyword,
+.gruvbox-light .hljs-selector-pseudo,
+.gruvbox-light .hljs-tag {
+  color: #427b58 !important;
+}
+
+/* Gruvbox Gray */
+.gruvbox-light .hljs-comment {
+  color: #928374 !important;
+}
+
+/* Gruvbox Purple */
+.gruvbox-light .hljs-link_label,
+.gruvbox-light .hljs-literal,
+.gruvbox-light .hljs-number {
+  color: #8f3f71 !important;
+}
+
+.gruvbox-light .hljs-comment,
+.gruvbox-light .hljs-emphasis {
+  font-style: italic !important;
+}
+
+.gruvbox-light .hljs-section,
+.gruvbox-light .hljs-strong,
+.gruvbox-light .hljs-tag {
+  font-weight: bold !important;
+}
+/*
+ * Hopscotch
+ * by Jan T. Sott
+ * https://github.com/idleberg/Hopscotch
+ *
+ * This work is licensed under the Creative Commons CC0 1.0 Universal License
+ */
+
+/* Comment */
+.hopscotch .hljs-comment,
+.hopscotch .hljs-quote {
+  color: #989498 !important;
+}
+
+/* Red */
+.hopscotch .hljs-variable,
+.hopscotch .hljs-template-variable,
+.hopscotch .hljs-attribute,
+.hopscotch .hljs-tag,
+.hopscotch .hljs-name,
+.hopscotch .hljs-selector-id,
+.hopscotch .hljs-selector-class,
+.hopscotch .hljs-regexp,
+.hopscotch .hljs-link,
+.hopscotch .hljs-deletion {
+  color: #dd464c !important;
+}
+
+/* Orange */
+.hopscotch .hljs-number,
+.hopscotch .hljs-built_in,
+.hopscotch .hljs-builtin-name,
+.hopscotch .hljs-literal,
+.hopscotch .hljs-type,
+.hopscotch .hljs-params {
+  color: #fd8b19 !important;
+}
+
+/* Yellow */
+.hopscotch .hljs-class .hljs-title {
+  color: #fdcc59 !important;
+}
+
+/* Green */
+.hopscotch .hljs-string,
+.hopscotch .hljs-symbol,
+.hopscotch .hljs-bullet,
+.hopscotch .hljs-addition {
+  color: #8fc13e !important;
+}
+
+/* Aqua */
+.hopscotch .hljs-meta {
+  color: #149b93 !important;
+}
+
+/* Blue */
+.hopscotch .hljs-function,
+.hopscotch .hljs-section,
+.hopscotch .hljs-title {
+  color: #1290bf !important;
+}
+
+/* Purple */
+.hopscotch .hljs-keyword,
+.hopscotch .hljs-selector-tag {
+  color: #c85e7c !important;
+}
+
+.hopscotch.hljs {
+  display: block !important;
+  background: #322931 !important;
+  color: #b9b5b8 !important;
+  padding: 0.5em !important;
+}
+
+.hopscotch .hljs-emphasis {
+  font-style: italic !important;
+}
+
+.hopscotch .hljs-strong {
+  font-weight: bold !important;
+}
+/*
+
+vim-hybrid theme by w0ng (https://github.com/w0ng/vim-hybrid)
+
+*/
+
+/*background color*/
+.hybrid.hljs {
+  display: block !important;
+  overflow-x: auto !important;
+  padding: 0.5em !important;
+  background: #1d1f21 !important;
+}
+
+/*selection color*/
+.hybrid.hljs::selection,
+.hybrid.hljs span::selection {
+  background: #373b41 !important;
+}
+
+.hybrid.hljs::-moz-selection,
+.hybrid.hljs span::-moz-selection {
+  background: #373b41 !important;
+}
+
+/*foreground color*/
+.hybrid.hljs {
+  color: #c5c8c6 !important;
+}
+
+/*color: fg_yellow*/
+.hybrid .hljs-title,
+.hybrid .hljs-name {
+  color: #f0c674 !important;
+}
+
+/*color: fg_comment*/
+.hybrid .hljs-comment,
+.hybrid .hljs-meta,
+.hybrid .hljs-meta .hljs-keyword {
+  color: #707880 !important;
+}
+
+/*color: fg_red*/
+.hybrid .hljs-number,
+.hybrid .hljs-symbol,
+.hybrid .hljs-literal,
+.hybrid .hljs-deletion,
+.hybrid .hljs-link {
+ color: #cc6666
+}
+
+/*color: fg_green*/
+.hybrid .hljs-string,
+.hybrid .hljs-doctag,
+.hybrid .hljs-addition,
+.hybrid .hljs-regexp,
+.hybrid .hljs-selector-attr,
+.hybrid .hljs-selector-pseudo {
+  color: #b5bd68 !important;
+}
+
+/*color: fg_purple*/
+.hybrid .hljs-attribute,
+.hybrid .hljs-code,
+.hybrid .hljs-selector-id {
+ color: #b294bb !important;
+}
+
+/*color: fg_blue*/
+.hybrid .hljs-keyword,
+.hybrid .hljs-selector-tag,
+.hybrid .hljs-bullet,
+.hybrid .hljs-tag {
+ color: #81a2be !important;
+}
+
+/*color: fg_aqua*/
+.hybrid .hljs-subst,
+.hybrid .hljs-variable,
+.hybrid .hljs-template-tag,
+.hybrid .hljs-template-variable {
+  color: #8abeb7 !important;
+}
+
+/*color: fg_orange*/
+.hybrid .hljs-type,
+.hybrid .hljs-built_in,
+.hybrid .hljs-builtin-name,
+.hybrid .hljs-quote,
+.hybrid .hljs-section,
+.hybrid .hljs-selector-class {
+  color: #de935f !important;
+}
+
+.hybrid .hljs-emphasis {
+  font-style: italic !important;
+}
+
+.hybrid .hljs-strong {
+  font-weight: bold !important;
+}
+/*
+
+Intellij Idea-like styling (c) Vasily Polovnyov <vast@whiteants.net>
+
+*/
+
+.idea.hljs {
+  display: block !important;
+  overflow-x: auto !important;
+  padding: 0.5em !important;
+  color: #000 !important;
+  background: #fff !important;
+}
+
+.idea .hljs-subst,
+.idea .hljs-title {
+  font-weight: normal !important;
+  color: #000 !important;
+}
+
+.idea .hljs-comment,
+.idea .hljs-quote {
+  color: #808080 !important;
+  font-style: italic !important;
+}
+
+.idea .hljs-meta {
+  color: #808000 !important;
+}
+
+.idea .hljs-tag {
+  background: #efefef !important;
+}
+
+.idea .hljs-section,
+.idea .hljs-name,
+.idea .hljs-literal,
+.idea .hljs-keyword,
+.idea .hljs-selector-tag,
+.idea .hljs-type,
+.idea .hljs-selector-id,
+.idea .hljs-selector-class {
+  font-weight: bold !important;
+  color: #000080 !important;
+}
+
+.idea .hljs-attribute,
+.idea .hljs-number,
+.idea .hljs-regexp,
+.idea .hljs-link {
+  font-weight: bold !important;
+  color: #0000ff !important;
+}
+
+.idea .hljs-number,
+.idea .hljs-regexp,
+.idea .hljs-link {
+  font-weight: normal !important;
+}
+
+.idea .hljs-string {
+  color: #008000 !important;
+  font-weight: bold !important;
+}
+
+.idea .hljs-symbol,
+.idea .hljs-bullet,
+.idea .hljs-formula {
+  color: #000 !important;
+  background: #d0eded !important;
+  font-style: italic !important;
+}
+
+.idea .hljs-doctag {
+  text-decoration: underline !important;
+}
+
+.idea .hljs-variable,
+.idea .hljs-template-variable {
+  color: #660e7a !important;
+}
+
+.idea .hljs-addition {
+  background: #baeeba !important;
+}
+
+.idea .hljs-deletion {
+  background: #ffc8bd !important;
+}
+
+.idea .hljs-emphasis {
+  font-style: italic !important;
+}
+
+.idea .hljs-strong {
+  font-weight: bold !important;
+}
+/*
+  IR_Black style (c) Vasily Mikhailitchenko <vaskas@programica.ru>
+*/
+
+.ir-black.hljs {
+  display: block !important;
+  overflow-x: auto !important;
+  padding: 0.5em !important;
+  background: #000 !important;
+  color: #f8f8f8 !important;
+}
+
+.ir-black .hljs-comment,
+.ir-black .hljs-quote,
+.ir-black .hljs-meta {
+  color: #7c7c7c !important;
+}
+
+.ir-black .hljs-keyword,
+.ir-black .hljs-selector-tag,
+.ir-black .hljs-tag,
+.ir-black .hljs-name {
+  color: #96cbfe !important;
+}
+
+.ir-black .hljs-attribute,
+.ir-black .hljs-selector-id {
+  color: #ffffb6 !important;
+}
+
+.ir-black .hljs-string,
+.ir-black .hljs-selector-attr,
+.ir-black .hljs-selector-pseudo,
+.ir-black .hljs-addition {
+  color: #a8ff60 !important;
+}
+
+.ir-black .hljs-subst {
+  color: #daefa3 !important;
+}
+
+.ir-black .hljs-regexp,
+.ir-black .hljs-link {
+  color: #e9c062 !important;
+}
+
+.ir-black .hljs-title,
+.ir-black .hljs-section,
+.ir-black .hljs-type,
+.ir-black .hljs-doctag {
+  color: #ffffb6 !important;
+}
+
+.ir-black .hljs-symbol,
+.ir-black .hljs-bullet,
+.ir-black .hljs-variable,
+.ir-black .hljs-template-variable,
+.ir-black .hljs-literal {
+  color: #c6c5fe !important;
+}
+
+.ir-black .hljs-number,
+.ir-black .hljs-deletion {
+  color:#ff73fd !important;
+}
+
+.ir-black .hljs-emphasis {
+  font-style: italic !important;
+}
+
+.ir-black .hljs-strong {
+  font-weight: bold !important;
+}
+/*
+    Name:     Kimbie (dark)
+    Author:   Jan T. Sott
+    License:  Creative Commons Attribution-ShareAlike 4.0 Unported License
+    URL:      https://github.com/idleberg/Kimbie-highlight.js
+*/
+
+/* Kimbie Comment */
+.kimbie.dark .hljs-comment,
+.kimbie.dark .hljs-quote {
+  color: #d6baad !important;
+}
+
+/* Kimbie Red */
+.kimbie.dark .hljs-variable,
+.kimbie.dark .hljs-template-variable,
+.kimbie.dark .hljs-tag,
+.kimbie.dark .hljs-name,
+.kimbie.dark .hljs-selector-id,
+.kimbie.dark .hljs-selector-class,
+.kimbie.dark .hljs-regexp,
+.kimbie.dark .hljs-meta {
+  color: #dc3958 !important;
+}
+
+/* Kimbie Orange */
+.kimbie.dark .hljs-number,
+.kimbie.dark .hljs-built_in,
+.kimbie.dark .hljs-builtin-name,
+.kimbie.dark .hljs-literal,
+.kimbie.dark .hljs-type,
+.kimbie.dark .hljs-params,
+.kimbie.dark .hljs-deletion,
+.kimbie.dark .hljs-link {
+  color: #f79a32 !important;
+}
+
+/* Kimbie Yellow */
+.kimbie.dark .hljs-title,
+.kimbie.dark .hljs-section,
+.kimbie.dark .hljs-attribute {
+  color: #f06431 !important;
+}
+
+/* Kimbie Green */
+.kimbie.dark .hljs-string,
+.kimbie.dark .hljs-symbol,
+.kimbie.dark .hljs-bullet,
+.kimbie.dark .hljs-addition {
+  color: #889b4a !important;
+}
+
+/* Kimbie Purple */
+.kimbie.dark .hljs-keyword,
+.kimbie.dark .hljs-selector-tag,
+.kimbie.dark .hljs-function {
+  color: #98676a !important;
+}
+
+.kimbie.dark.hljs {
+  display: block !important;
+  overflow-x: auto !important;
+  background: #221a0f !important;
+  color: #d3af86 !important;
+  padding: 0.5em !important;
+}
+
+.kimbie.dark .hljs-emphasis {
+  font-style: italic !important;
+}
+
+.kimbie.dark .hljs-strong {
+  font-weight: bold !important;
+}
+/*
+    Name:     Kimbie (light)
+    Author:   Jan T. Sott
+    License:  Creative Commons Attribution-ShareAlike 4.0 Unported License
+    URL:      https://github.com/idleberg/Kimbie-highlight.js
+*/
+
+/* Kimbie Comment */
+.kimbie-light .hljs-comment,
+.kimbie-light .hljs-quote {
+  color: #a57a4c !important;
+}
+
+/* Kimbie Red */
+.kimbie-light .hljs-variable,
+.kimbie-light .hljs-template-variable,
+.kimbie-light .hljs-tag,
+.kimbie-light .hljs-name,
+.kimbie-light .hljs-selector-id,
+.kimbie-light .hljs-selector-class,
+.kimbie-light .hljs-regexp,
+.kimbie-light .hljs-meta {
+  color: #dc3958 !important;
+}
+
+/* Kimbie Orange */
+.kimbie-light .hljs-number,
+.kimbie-light .hljs-built_in,
+.kimbie-light .hljs-builtin-name,
+.kimbie-light .hljs-literal,
+.kimbie-light .hljs-type,
+.kimbie-light .hljs-params,
+.kimbie-light .hljs-deletion,
+.kimbie-light .hljs-link {
+  color: #f79a32 !important;
+}
+
+/* Kimbie Yellow */
+.kimbie-light .hljs-title,
+.kimbie-light .hljs-section,
+.kimbie-light .hljs-attribute {
+  color: #f06431 !important;
+}
+
+/* Kimbie Green */
+.kimbie-light .hljs-string,
+.kimbie-light .hljs-symbol,
+.kimbie-light .hljs-bullet,
+.kimbie-light .hljs-addition {
+  color: #889b4a !important;
+}
+
+/* Kimbie Purple */
+.kimbie-light .hljs-keyword,
+.kimbie-light .hljs-selector-tag,
+.kimbie-light .hljs-function {
+  color: #98676a !important;
+}
+
+.kimbie-light.hljs {
+  display: block !important;
+  overflow-x: auto !important;
+  background: #fbebd4 !important;
+  color: #84613d !important;
+  padding: 0.5em !important;
+}
+
+.kimbie-light .hljs-emphasis {
+  font-style: italic !important;
+}
+
+.kimbie-light .hljs-strong {
+  font-weight: bold !important;
+}
+/*
+Description: Magula style for highligh.js
+Author: Ruslan Keba <rukeba@gmail.com>
+Website: http://rukeba.com/
+Version: 1.0
+Date: 2009-01-03
+Music: Aphex Twin / Xtal
+*/
+
+.magula.hljs {
+  display: block !important;
+  overflow-x: auto !important;
+  padding: 0.5em !important;
+  background-color: #f4f4f4 !important;
+}
+
+.magula.hljs,
+.magula .hljs-subst {
+  color: black !important;
+}
+
+.magula .hljs-string,
+.magula .hljs-title,
+.magula .hljs-symbol,
+.magula .hljs-bullet,
+.magula .hljs-attribute,
+.magula .hljs-addition,
+.magula .hljs-variable,
+.magula .hljs-template-tag,
+.magula .hljs-template-variable {
+  color: #050 !important;
+}
+
+.magula .hljs-comment,
+.magula .hljs-quote {
+  color: #777 !important;
+}
+
+.magula .hljs-number,
+.magula .hljs-regexp,
+.magula .hljs-literal,
+.magula .hljs-type,
+.magula .hljs-link {
+  color: #800 !important;
+}
+
+.magula .hljs-deletion,
+.magula .hljs-meta {
+  color: #00e !important;
+}
+
+.magula .hljs-keyword,
+.magula .hljs-selector-tag,
+.magula .hljs-doctag,
+.magula .hljs-title,
+.magula .hljs-section,
+.magula .hljs-built_in,
+.magula .hljs-tag,
+.magula .hljs-name {
+  font-weight: bold !important;
+  color: navy !important;
+}
+
+.magula .hljs-emphasis {
+  font-style: italic !important;
+}
+
+.magula .hljs-strong {
+  font-weight: bold !important;
+}
+/*
+  Five-color theme from a single blue hue.
+*/
+.mono-blue.hljs {
+  display: block !important;
+  overflow-x: auto !important;
+  padding: 0.5em !important;
+  background: #eaeef3 !important;
+}
+
+.mono-blue.hljs {
+  color: #00193a !important;
+}
+
+.mono-blue .hljs-keyword,
+.mono-blue .hljs-selector-tag,
+.mono-blue .hljs-title,
+.mono-blue .hljs-section,
+.mono-blue .hljs-doctag,
+.mono-blue .hljs-name,
+.mono-blue .hljs-strong {
+  font-weight: bold !important;
+}
+
+.mono-blue .hljs-comment {
+  color: #738191 !important;
+}
+
+.mono-blue .hljs-string,
+.mono-blue .hljs-title,
+.mono-blue .hljs-section,
+.mono-blue .hljs-built_in,
+.mono-blue .hljs-literal,
+.mono-blue .hljs-type,
+.mono-blue .hljs-addition,
+.mono-blue .hljs-tag,
+.mono-blue .hljs-quote,
+.mono-blue .hljs-name,
+.mono-blue .hljs-selector-id,
+.mono-blue .hljs-selector-class {
+  color: #0048ab !important;
+}
+
+.mono-blue .hljs-meta,
+.mono-blue .hljs-subst,
+.mono-blue .hljs-symbol,
+.mono-blue .hljs-regexp,
+.mono-blue .hljs-attribute,
+.mono-blue .hljs-deletion,
+.mono-blue .hljs-variable,
+.mono-blue .hljs-template-variable,
+.mono-blue .hljs-link,
+.mono-blue .hljs-bullet {
+  color: #4c81c9 !important;
+}
+
+.mono-blue .hljs-emphasis {
+  font-style: italic !important;
+}
+/*
+
+Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-license.org/
+
+*/
+
+.monokai-sublime.hljs {
+  display: block !important;
+  overflow-x: auto !important;
+  padding: 0.5em !important;
+  background: #23241f !important;
+}
+
+.monokai-sublime.hljs,
+.monokai-sublime .hljs-tag,
+.monokai-sublime .hljs-subst {
+  color: #f8f8f2 !important;
+}
+
+.monokai-sublime .hljs-strong,
+.monokai-sublime .hljs-emphasis {
+  color: #a8a8a2 !important;
+}
+
+.monokai-sublime .hljs-bullet,
+.monokai-sublime .hljs-quote,
+.monokai-sublime .hljs-number,
+.monokai-sublime .hljs-regexp,
+.monokai-sublime .hljs-literal,
+.monokai-sublime .hljs-link {
+  color: #ae81ff !important;
+}
+
+.monokai-sublime .hljs-code,
+.monokai-sublime .hljs-title,
+.monokai-sublime .hljs-section,
+.monokai-sublime .hljs-selector-class {
+  color: #a6e22e !important;
+}
+
+.monokai-sublime .hljs-strong {
+  font-weight: bold !important;
+}
+
+.monokai-sublime .hljs-emphasis {
+  font-style: italic !important;
+}
+
+.monokai-sublime .hljs-keyword,
+.monokai-sublime .hljs-selector-tag,
+.monokai-sublime .hljs-name,
+.monokai-sublime .hljs-attr {
+  color: #f92672 !important;
+}
+
+.monokai-sublime .hljs-symbol,
+.monokai-sublime .hljs-attribute {
+  color: #66d9ef !important;
+}
+
+.monokai-sublime .hljs-params,
+.monokai-sublime .hljs-class .hljs-title {
+  color: #f8f8f2 !important;
+}
+
+.monokai-sublime .hljs-string,
+.monokai-sublime .hljs-type,
+.monokai-sublime .hljs-built_in,
+.monokai-sublime .hljs-builtin-name,
+.monokai-sublime .hljs-selector-id,
+.monokai-sublime .hljs-selector-attr,
+.monokai-sublime .hljs-selector-pseudo,
+.monokai-sublime .hljs-addition,
+.monokai-sublime .hljs-variable,
+.monokai-sublime .hljs-template-variable {
+  color: #e6db74 !important;
+}
+
+.monokai-sublime .hljs-comment,
+.monokai-sublime .hljs-deletion,
+.monokai-sublime .hljs-meta {
+  color: #75715e !important;
+}
+/*
+Monokai style - ported by Luigi Maselli - http://grigio.org
+*/
+
+.monokai.hljs {
+  display: block !important;
+  overflow-x: auto !important;
+  padding: 0.5em !important;
+  background: #272822 !important; color: #ddd
+}
+
+.monokai .hljs-tag,
+.monokai .hljs-keyword,
+.monokai .hljs-selector-tag,
+.monokai .hljs-literal,
+.monokai .hljs-strong,
+.monokai .hljs-name {
+  color: #f92672 !important;
+}
+
+.monokai .hljs-code {
+  color: #66d9ef !important;
+}
+
+.monokai .hljs-class .hljs-title {
+  color: white !important;
+}
+
+.monokai .hljs-attribute,
+.monokai .hljs-symbol,
+.monokai .hljs-regexp,
+.monokai .hljs-link {
+  color: #bf79db !important;
+}
+
+.monokai .hljs-string,
+.monokai .hljs-bullet,
+.monokai .hljs-subst,
+.monokai .hljs-title,
+.monokai .hljs-section,
+.monokai .hljs-emphasis,
+.monokai .hljs-type,
+.monokai .hljs-built_in,
+.monokai .hljs-builtin-name,
+.monokai .hljs-selector-attr,
+.monokai .hljs-selector-pseudo,
+.monokai .hljs-addition,
+.monokai .hljs-variable,
+.monokai .hljs-template-tag,
+.monokai .hljs-template-variable {
+  color: #a6e22e !important;
+}
+
+.monokai .hljs-comment,
+.monokai .hljs-quote,
+.monokai .hljs-deletion,
+.monokai .hljs-meta {
+  color: #75715e !important;
+}
+
+.monokai .hljs-keyword,
+.monokai .hljs-selector-tag,
+.monokai .hljs-literal,
+.monokai .hljs-doctag,
+.monokai .hljs-title,
+.monokai .hljs-section,
+.monokai .hljs-type,
+.monokai .hljs-selector-id {
+  font-weight: bold !important;
+}
+/**
+ * Obsidian style
+ * ported by Alexander Marenin (http://github.com/ioncreature)
+ */
+
+.obsidian.hljs {
+  display: block !important;
+  overflow-x: auto !important;
+  padding: 0.5em !important;
+  background: #282b2e !important;
+}
+
+.obsidian .hljs-keyword,
+.obsidian .hljs-selector-tag,
+.obsidian .hljs-literal,
+.obsidian .hljs-selector-id {
+  color: #93c763 !important;
+}
+
+.obsidian .hljs-number {
+  color: #ffcd22 !important;
+}
+
+.obsidian.hljs {
+  color: #e0e2e4 !important;
+}
+
+.obsidian .hljs-attribute {
+  color: #668bb0 !important;
+}
+
+.obsidian .hljs-code,
+.obsidian .hljs-class .hljs-title,
+.obsidian .hljs-section {
+  color: white !important;
+}
+
+.obsidian .hljs-regexp,
+.obsidian .hljs-link {
+  color: #d39745 !important;
+}
+
+.obsidian .hljs-meta {
+  color: #557182 !important;
+}
+
+.obsidian .hljs-tag,
+.obsidian .hljs-name,
+.obsidian .hljs-bullet,
+.obsidian .hljs-subst,
+.obsidian .hljs-emphasis,
+.obsidian .hljs-type,
+.obsidian .hljs-built_in,
+.obsidian .hljs-selector-attr,
+.obsidian .hljs-selector-pseudo,
+.obsidian .hljs-addition,
+.obsidian .hljs-variable,
+.obsidian .hljs-template-tag,
+.obsidian .hljs-template-variable {
+  color: #8cbbad !important;
+}
+
+.obsidian .hljs-string,
+.obsidian .hljs-symbol {
+  color: #ec7600 !important;
+}
+
+.obsidian .hljs-comment,
+.obsidian .hljs-quote,
+.obsidian .hljs-deletion {
+  color: #818e96 !important;
+}
+
+.obsidian .hljs-selector-class {
+  color: #A082BD
+}
+
+.obsidian .hljs-keyword,
+.obsidian .hljs-selector-tag,
+.obsidian .hljs-literal,
+.obsidian .hljs-doctag,
+.obsidian .hljs-title,
+.obsidian .hljs-section,
+.obsidian .hljs-type,
+.obsidian .hljs-name,
+.obsidian .hljs-strong {
+  font-weight: bold !important;
+}
+/*
+    Paraíso (dark)
+    Created by Jan T. Sott (http://github.com/idleberg)
+    Inspired by the art of Rubens LP (http://www.rubenslp.com.br)
+*/
+
+/* Paraíso Comment */
+.paraiso-dark .hljs-comment,
+.paraiso-dark .hljs-quote {
+  color: #8d8687 !important;
+}
+
+/* Paraíso Red */
+.paraiso-dark .hljs-variable,
+.paraiso-dark .hljs-template-variable,
+.paraiso-dark .hljs-tag,
+.paraiso-dark .hljs-name,
+.paraiso-dark .hljs-selector-id,
+.paraiso-dark .hljs-selector-class,
+.paraiso-dark .hljs-regexp,
+.paraiso-dark .hljs-link,
+.paraiso-dark .hljs-meta {
+  color: #ef6155 !important;
+}
+
+/* Paraíso Orange */
+.paraiso-dark .hljs-number,
+.paraiso-dark .hljs-built_in,
+.paraiso-dark .hljs-builtin-name,
+.paraiso-dark .hljs-literal,
+.paraiso-dark .hljs-type,
+.paraiso-dark .hljs-params,
+.paraiso-dark .hljs-deletion {
+  color: #f99b15 !important;
+}
+
+/* Paraíso Yellow */
+.paraiso-dark .hljs-title,
+.paraiso-dark .hljs-section,
+.paraiso-dark .hljs-attribute {
+  color: #fec418 !important;
+}
+
+/* Paraíso Green */
+.paraiso-dark .hljs-string,
+.paraiso-dark .hljs-symbol,
+.paraiso-dark .hljs-bullet,
+.paraiso-dark .hljs-addition {
+  color: #48b685 !important;
+}
+
+/* Paraíso Purple */
+.paraiso-dark .hljs-keyword,
+.paraiso-dark .hljs-selector-tag {
+  color: #815ba4 !important;
+}
+
+.paraiso-dark.hljs {
+  display: block !important;
+  overflow-x: auto !important;
+  background: #2f1e2e !important;
+  color: #a39e9b !important;
+  padding: 0.5em !important;
+}
+
+.paraiso-dark .hljs-emphasis {
+  font-style: italic !important;
+}
+
+.paraiso-dark .hljs-strong {
+  font-weight: bold !important;
+}
+/*
+    Paraíso (light)
+    Created by Jan T. Sott (http://github.com/idleberg)
+    Inspired by the art of Rubens LP (http://www.rubenslp.com.br)
+*/
+
+/* Paraíso Comment */
+.paraiso-light .hljs-comment,
+.paraiso-light .hljs-quote {
+  color: #776e71 !important;
+}
+
+/* Paraíso Red */
+.paraiso-light .hljs-variable,
+.paraiso-light .hljs-template-variable,
+.paraiso-light .hljs-tag,
+.paraiso-light .hljs-name,
+.paraiso-light .hljs-selector-id,
+.paraiso-light .hljs-selector-class,
+.paraiso-light .hljs-regexp,
+.paraiso-light .hljs-link,
+.paraiso-light .hljs-meta {
+  color: #ef6155 !important;
+}
+
+/* Paraíso Orange */
+.paraiso-light .hljs-number,
+.paraiso-light .hljs-built_in,
+.paraiso-light .hljs-builtin-name,
+.paraiso-light .hljs-literal,
+.paraiso-light .hljs-type,
+.paraiso-light .hljs-params,
+.paraiso-light .hljs-deletion {
+  color: #f99b15 !important;
+}
+
+/* Paraíso Yellow */
+.paraiso-light .hljs-title,
+.paraiso-light .hljs-section,
+.paraiso-light .hljs-attribute {
+  color: #fec418 !important;
+}
+
+/* Paraíso Green */
+.paraiso-light .hljs-string,
+.paraiso-light .hljs-symbol,
+.paraiso-light .hljs-bullet,
+.paraiso-light .hljs-addition {
+  color: #48b685 !important;
+}
+
+/* Paraíso Purple */
+.paraiso-light .hljs-keyword,
+.paraiso-light .hljs-selector-tag {
+  color: #815ba4 !important;
+}
+
+.paraiso-light.hljs {
+  display: block !important;
+  overflow-x: auto !important;
+  background: #e7e9db !important;
+  color: #4f424c !important;
+  padding: 0.5em !important;
+}
+
+.paraiso-light .hljs-emphasis {
+  font-style: italic !important;
+}
+
+.paraiso-light .hljs-strong {
+  font-weight: bold !important;
+}
+/*
+
+Pojoaque Style by Jason Tate
+http://web-cms-designs.com/ftopict-10-pojoaque-style-for-highlight-js-code-highlighter.html
+Based on Solarized Style from http://ethanschoonover.com/solarized
+
+*/
+
+.pojoaque.hljs {
+  display: block !important;
+  overflow-x: auto !important;
+  padding: 0.5em !important;
+  color: #dccf8f !important;
+  background: url(./pojoaque.jpg) repeat scroll left top #181914 !important;
+}
+
+.pojoaque .hljs-comment,
+.pojoaque .hljs-quote {
+  color: #586e75 !important;
+  font-style: italic !important;
+}
+
+.pojoaque .hljs-keyword,
+.pojoaque .hljs-selector-tag,
+.pojoaque .hljs-literal,
+.pojoaque .hljs-addition {
+  color: #b64926 !important;
+}
+
+.pojoaque .hljs-number,
+.pojoaque .hljs-string,
+.pojoaque .hljs-doctag,
+.pojoaque .hljs-regexp {
+  color: #468966 !important;
+}
+
+.pojoaque .hljs-title,
+.pojoaque .hljs-section,
+.pojoaque .hljs-built_in,
+.pojoaque .hljs-name {
+  color: #ffb03b !important;
+}
+
+.pojoaque .hljs-variable,
+.pojoaque .hljs-template-variable,
+.pojoaque .hljs-class .hljs-title,
+.pojoaque .hljs-type,
+.pojoaque .hljs-tag {
+  color: #b58900 !important;
+}
+
+.pojoaque .hljs-attribute {
+  color: #b89859 !important;
+}
+
+.pojoaque .hljs-symbol,
+.pojoaque .hljs-bullet,
+.pojoaque .hljs-link,
+.pojoaque .hljs-subst,
+.pojoaque .hljs-meta {
+  color: #cb4b16 !important;
+}
+
+.pojoaque .hljs-deletion {
+  color: #dc322f !important;
+}
+
+.pojoaque .hljs-selector-id,
+.pojoaque .hljs-selector-class {
+  color: #d3a60c !important;
+}
+
+.pojoaque .hljs-formula {
+  background: #073642 !important;
+}
+
+.pojoaque .hljs-emphasis {
+  font-style: italic !important;
+}
+
+.pojoaque .hljs-strong {
+  font-weight: bold !important;
+}
+/*
+
+Qt Creator dark color scheme
+
+*/
+
+
+.qtcreator_dark.hljs {
+  display: block !important;
+  overflow-x: auto !important;
+  padding: 0.5em !important;
+  background: #000000 !important;
+}
+
+.qtcreator_dark.hljs,
+.qtcreator_dark .hljs-subst,
+.qtcreator_dark .hljs-tag,
+.qtcreator_dark .hljs-title {
+  color: #aaaaaa !important;
+}
+
+.qtcreator_dark .hljs-strong,
+.qtcreator_dark .hljs-emphasis {
+  color: #a8a8a2 !important;
+}
+
+.qtcreator_dark .hljs-bullet,
+.qtcreator_dark .hljs-quote,
+.qtcreator_dark .hljs-number,
+.qtcreator_dark .hljs-regexp,
+.qtcreator_dark .hljs-literal {
+  color: #ff55ff !important;
+}
+
+.qtcreator_dark .hljs-code
+.qtcreator_dark .hljs-selector-class {
+  color: #aaaaff !important;
+}
+
+.qtcreator_dark .hljs-emphasis,
+.qtcreator_dark .hljs-stronge,
+.qtcreator_dark .hljs-type {
+  font-style: italic !important;
+}
+
+.qtcreator_dark .hljs-keyword,
+.qtcreator_dark .hljs-selector-tag,
+.qtcreator_dark .hljs-function,
+.qtcreator_dark .hljs-section,
+.qtcreator_dark .hljs-symbol,
+.qtcreator_dark .hljs-name {
+  color: #ffff55 !important;
+}
+
+.qtcreator_dark .hljs-attribute {
+  color: #ff5555 !important;
+}
+
+.qtcreator_dark .hljs-variable,
+.qtcreator_dark .hljs-params,
+.qtcreator_dark .hljs-class .hljs-title {
+  color: #8888ff !important;
+}
+
+.qtcreator_dark .hljs-string,
+.qtcreator_dark .hljs-selector-id,
+.qtcreator_dark .hljs-selector-attr,
+.qtcreator_dark .hljs-selector-pseudo,
+.qtcreator_dark .hljs-type,
+.qtcreator_dark .hljs-built_in,
+.qtcreator_dark .hljs-builtin-name,
+.qtcreator_dark .hljs-template-tag,
+.qtcreator_dark .hljs-template-variable,
+.qtcreator_dark .hljs-addition,
+.qtcreator_dark .hljs-link {
+  color: #ff55ff !important;
+}
+
+.qtcreator_dark .hljs-comment,
+.qtcreator_dark .hljs-meta,
+.qtcreator_dark .hljs-deletion {
+  color: #55ffff !important;
+}
+/*
+
+Qt Creator light color scheme
+
+*/
+
+
+.qtcreator_light.hljs {
+  display: block !important;
+  overflow-x: auto !important;
+  padding: 0.5em !important;
+  background: #ffffff !important;
+}
+
+.qtcreator_light.hljs,
+.qtcreator_light .hljs-subst,
+.qtcreator_light .hljs-tag,
+.qtcreator_light .hljs-title {
+  color: #000000 !important;
+}
+
+.qtcreator_light .hljs-strong,
+.qtcreator_light .hljs-emphasis {
+  color: #000000 !important;
+}
+
+.qtcreator_light .hljs-bullet,
+.qtcreator_light .hljs-quote,
+.qtcreator_light .hljs-number,
+.qtcreator_light .hljs-regexp,
+.qtcreator_light .hljs-literal {
+  color: #000080 !important;
+}
+
+.qtcreator_light .hljs-code
+.qtcreator_light .hljs-selector-class {
+  color: #800080 !important;
+}
+
+.qtcreator_light .hljs-emphasis,
+.qtcreator_light .hljs-stronge,
+.qtcreator_light .hljs-type {
+  font-style: italic !important;
+}
+
+.qtcreator_light .hljs-keyword,
+.qtcreator_light .hljs-selector-tag,
+.qtcreator_light .hljs-function,
+.qtcreator_light .hljs-section,
+.qtcreator_light .hljs-symbol,
+.qtcreator_light .hljs-name {
+  color: #808000 !important;
+}
+
+.qtcreator_light .hljs-attribute {
+  color: #800000 !important;
+}
+
+.qtcreator_light .hljs-variable,
+.qtcreator_light .hljs-params,
+.qtcreator_light .hljs-class .hljs-title {
+  color: #0055AF !important;
+}
+
+.qtcreator_light .hljs-string,
+.qtcreator_light .hljs-selector-id,
+.qtcreator_light .hljs-selector-attr,
+.qtcreator_light .hljs-selector-pseudo,
+.qtcreator_light .hljs-type,
+.qtcreator_light .hljs-built_in,
+.qtcreator_light .hljs-builtin-name,
+.qtcreator_light .hljs-template-tag,
+.qtcreator_light .hljs-template-variable,
+.qtcreator_light .hljs-addition,
+.qtcreator_light .hljs-link {
+  color: #008000 !important;
+}
+
+.qtcreator_light .hljs-comment,
+.qtcreator_light .hljs-meta,
+.qtcreator_light .hljs-deletion {
+  color: #008000 !important;
+}
+/*
+
+Railscasts-like style (c) Visoft, Inc. (Damien White)
+
+*/
+
+.railscasts.hljs {
+  display: block !important;
+  overflow-x: auto !important;
+  padding: 0.5em !important;
+  background: #232323 !important;
+  color: #e6e1dc !important;
+}
+
+.railscasts .hljs-comment,
+.railscasts .hljs-quote {
+  color: #bc9458 !important;
+  font-style: italic !important;
+}
+
+.railscasts .hljs-keyword,
+.railscasts .hljs-selector-tag {
+  color: #c26230 !important;
+}
+
+.railscasts .hljs-string,
+.railscasts .hljs-number,
+.railscasts .hljs-regexp,
+.railscasts .hljs-variable,
+.railscasts .hljs-template-variable {
+  color: #a5c261 !important;
+}
+
+.railscasts .hljs-subst {
+  color: #519f50 !important;
+}
+
+.railscasts .hljs-tag,
+.railscasts .hljs-name {
+  color: #e8bf6a !important;
+}
+
+.railscasts .hljs-type {
+  color: #da4939 !important;
+}
+
+
+.railscasts .hljs-symbol,
+.railscasts .hljs-bullet,
+.railscasts .hljs-built_in,
+.railscasts .hljs-builtin-name,
+.railscasts .hljs-attr,
+.railscasts .hljs-link {
+  color: #6d9cbe !important;
+}
+
+.railscasts .hljs-params {
+  color: #d0d0ff !important;
+}
+
+.railscasts .hljs-attribute {
+  color: #cda869 !important;
+}
+
+.railscasts .hljs-meta {
+  color: #9b859d !important;
+}
+
+.railscasts .hljs-title,
+.railscasts .hljs-section {
+  color: #ffc66d !important;
+}
+
+.railscasts .hljs-addition {
+  background-color: #144212 !important;
+  color: #e6e1dc !important;
+  display: inline-block !important;
+  width: 100% !important;
+}
+
+.railscasts .hljs-deletion {
+  background-color: #600 !important;
+  color: #e6e1dc !important;
+  display: inline-block !important;
+  width: 100% !important;
+}
+
+.railscasts .hljs-selector-class {
+  color: #9b703f !important;
+}
+
+.railscasts .hljs-selector-id {
+  color: #8b98ab !important;
+}
+
+.railscasts .hljs-emphasis {
+  font-style: italic !important;
+}
+
+.railscasts .hljs-strong {
+  font-weight: bold !important;
+}
+
+.railscasts .hljs-link {
+  text-decoration: underline !important;
+}
+/*
+
+Style with support for rainbow parens
+
+*/
+
+.rainbow.hljs {
+  display: block !important;
+  overflow-x: auto !important;
+  padding: 0.5em !important;
+  background: #474949 !important;
+  color: #d1d9e1 !important;
+}
+
+
+.rainbow .hljs-comment,
+.rainbow .hljs-quote {
+  color: #969896 !important;
+  font-style: italic !important;
+}
+
+.rainbow .hljs-keyword,
+.rainbow .hljs-selector-tag,
+.rainbow .hljs-literal,
+.rainbow .hljs-type,
+.rainbow .hljs-addition {
+  color: #cc99cc !important;
+}
+
+.rainbow .hljs-number,
+.rainbow .hljs-selector-attr,
+.rainbow .hljs-selector-pseudo {
+  color: #f99157 !important;
+}
+
+.rainbow .hljs-string,
+.rainbow .hljs-doctag,
+.rainbow .hljs-regexp {
+  color: #8abeb7 !important;
+}
+
+.rainbow .hljs-title,
+.rainbow .hljs-name,
+.rainbow .hljs-section,
+.rainbow .hljs-built_in {
+  color: #b5bd68 !important;
+}
+
+.rainbow .hljs-variable,
+.rainbow .hljs-template-variable,
+.rainbow .hljs-selector-id,
+.rainbow .hljs-class .hljs-title {
+   color: #ffcc66 !important;
+}
+
+.rainbow .hljs-section,
+.rainbow .hljs-name,
+.rainbow .hljs-strong {
+  font-weight: bold !important;
+}
+
+.rainbow .hljs-symbol,
+.rainbow .hljs-bullet,
+.rainbow .hljs-subst,
+.rainbow .hljs-meta,
+.rainbow .hljs-link {
+  color: #f99157 !important;
+}
+
+.rainbow .hljs-deletion {
+  color: #dc322f !important;
+}
+
+.rainbow .hljs-formula {
+  background: #eee8d5 !important;
+}
+
+.rainbow .hljs-attr,
+.rainbow .hljs-attribute {
+  color: #81a2be !important;
+}
+
+.rainbow .hljs-emphasis {
+  font-style: italic !important;
+}
+/*
+
+School Book style from goldblog.com.ua (c) Zaripov Yura <yur4ik7@ukr.net>
+
+*/
+
+.school-book.hljs {
+  display: block !important;
+  overflow-x: auto !important;
+  padding: 15px 0.5em 0.5em 30px !important;
+  font-size: 11px !important;
+  line-height:16px !important;
+}
+
+.school-book.hljs{
+  background:#f6f6ae url(./school-book.png) !important;
+  border-top: solid 2px #d2e8b9 !important;
+  border-bottom: solid 1px #d2e8b9 !important;
+}
+
+.school-book .hljs-keyword,
+.school-book .hljs-selector-tag,
+.school-book .hljs-literal {
+  color:#005599 !important;
+  font-weight:bold !important;
+}
+
+.school-book.hljs,
+.school-book .hljs-subst {
+  color: #3e5915 !important;
+}
+
+.school-book .hljs-string,
+.school-book .hljs-title,
+.school-book .hljs-section,
+.school-book .hljs-type,
+.school-book .hljs-symbol,
+.school-book .hljs-bullet,
+.school-book .hljs-attribute,
+.school-book .hljs-built_in,
+.school-book .hljs-builtin-name,
+.school-book .hljs-addition,
+.school-book .hljs-variable,
+.school-book .hljs-template-tag,
+.school-book .hljs-template-variable,
+.school-book .hljs-link {
+  color: #2c009f !important;
+}
+
+.school-book .hljs-comment,
+.school-book .hljs-quote,
+.school-book .hljs-deletion,
+.school-book .hljs-meta {
+  color: #e60415 !important;
+}
+
+.school-book .hljs-keyword,
+.school-book .hljs-selector-tag,
+.school-book .hljs-literal,
+.school-book .hljs-doctag,
+.school-book .hljs-title,
+.school-book .hljs-section,
+.school-book .hljs-type,
+.school-book .hljs-name,
+.school-book .hljs-selector-id,
+.school-book .hljs-strong {
+  font-weight: bold !important;
+}
+
+.school-book .hljs-emphasis {
+  font-style: italic !important;
+}
+/*
+
+Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmail.com>
+
+*/
+
+.solarized-dark.hljs {
+  display: block !important;
+  overflow-x: auto !important;
+  padding: 0.5em !important;
+  background: #002b36 !important;
+  color: #839496 !important;
+}
+
+.solarized-dark .hljs-comment,
+.solarized-dark .hljs-quote {
+  color: #586e75 !important;
+}
+
+/* Solarized Green */
+.solarized-dark .hljs-keyword,
+.solarized-dark .hljs-selector-tag,
+.solarized-dark .hljs-addition {
+  color: #859900 !important;
+}
+
+/* Solarized Cyan */
+.solarized-dark .hljs-number,
+.solarized-dark .hljs-string,
+.solarized-dark .hljs-meta .hljs-meta-string,
+.solarized-dark .hljs-literal,
+.solarized-dark .hljs-doctag,
+.solarized-dark .hljs-regexp {
+  color: #2aa198 !important;
+}
+
+/* Solarized Blue */
+.solarized-dark .hljs-title,
+.solarized-dark .hljs-section,
+.solarized-dark .hljs-name,
+.solarized-dark .hljs-selector-id,
+.solarized-dark .hljs-selector-class {
+  color: #268bd2 !important;
+}
+
+/* Solarized Yellow */
+.solarized-dark .hljs-attribute,
+.solarized-dark .hljs-attr,
+.solarized-dark .hljs-variable,
+.solarized-dark .hljs-template-variable,
+.solarized-dark .hljs-class .hljs-title,
+.solarized-dark .hljs-type {
+  color: #b58900 !important;
+}
+
+/* Solarized Orange */
+.solarized-dark .hljs-symbol,
+.solarized-dark .hljs-bullet,
+.solarized-dark .hljs-subst,
+.solarized-dark .hljs-meta,
+.solarized-dark .hljs-meta .hljs-keyword,
+.solarized-dark .hljs-selector-attr,
+.solarized-dark .hljs-selector-pseudo,
+.solarized-dark .hljs-link {
+  color: #cb4b16 !important;
+}
+
+/* Solarized Red */
+.solarized-dark .hljs-built_in,
+.solarized-dark .hljs-deletion {
+  color: #dc322f !important;
+}
+
+.solarized-dark .hljs-formula {
+  background: #073642 !important;
+}
+
+.solarized-dark .hljs-emphasis {
+  font-style: italic !important;
+}
+
+.solarized-dark .hljs-strong {
+  font-weight: bold !important;
+}
+/*
+
+Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmail.com>
+
+*/
+
+.solarized-light.hljs {
+  display: block !important;
+  overflow-x: auto !important;
+  padding: 0.5em !important;
+  background: #fdf6e3 !important;
+  color: #657b83 !important;
+}
+
+.solarized-light .hljs-comment,
+.solarized-light .hljs-quote {
+  color: #93a1a1 !important;
+}
+
+/* Solarized Green */
+.solarized-light .hljs-keyword,
+.solarized-light .hljs-selector-tag,
+.solarized-light .hljs-addition {
+  color: #859900 !important;
+}
+
+/* Solarized Cyan */
+.solarized-light .hljs-number,
+.solarized-light .hljs-string,
+.solarized-light .hljs-meta .hljs-meta-string,
+.solarized-light .hljs-literal,
+.solarized-light .hljs-doctag,
+.solarized-light .hljs-regexp {
+  color: #2aa198 !important;
+}
+
+/* Solarized Blue */
+.solarized-light .hljs-title,
+.solarized-light .hljs-section,
+.solarized-light .hljs-name,
+.solarized-light .hljs-selector-id,
+.solarized-light .hljs-selector-class {
+  color: #268bd2 !important;
+}
+
+/* Solarized Yellow */
+.solarized-light .hljs-attribute,
+.solarized-light .hljs-attr,
+.solarized-light .hljs-variable,
+.solarized-light .hljs-template-variable,
+.solarized-light .hljs-class .hljs-title,
+.solarized-light .hljs-type {
+  color: #b58900 !important;
+}
+
+/* Solarized Orange */
+.solarized-light .hljs-symbol,
+.solarized-light .hljs-bullet,
+.solarized-light .hljs-subst,
+.solarized-light .hljs-meta,
+.solarized-light .hljs-meta .hljs-keyword,
+.solarized-light .hljs-selector-attr,
+.solarized-light .hljs-selector-pseudo,
+.solarized-light .hljs-link {
+  color: #cb4b16 !important;
+}
+
+/* Solarized Red */
+.solarized-light .hljs-built_in,
+.solarized-light .hljs-deletion {
+  color: #dc322f !important;
+}
+
+.solarized-light .hljs-formula {
+  background: #eee8d5 !important;
+}
+
+.solarized-light .hljs-emphasis {
+  font-style: italic !important;
+}
+
+.solarized-light .hljs-strong {
+  font-weight: bold !important;
+}
+/*
+
+Sunburst-like style (c) Vasily Polovnyov <vast@whiteants.net>
+
+*/
+
+.sunburst.hljs {
+  display: block !important;
+  overflow-x: auto !important;
+  padding: 0.5em !important;
+  background: #000 !important;
+  color: #f8f8f8 !important;
+}
+
+.sunburst .hljs-comment,
+.sunburst .hljs-quote {
+  color: #aeaeae !important;
+  font-style: italic !important;
+}
+
+.sunburst .hljs-keyword,
+.sunburst .hljs-selector-tag,
+.sunburst .hljs-type {
+  color: #e28964 !important;
+}
+
+.sunburst .hljs-string {
+  color: #65b042 !important;
+}
+
+.sunburst .hljs-subst {
+  color: #daefa3 !important;
+}
+
+.sunburst .hljs-regexp,
+.sunburst .hljs-link {
+  color: #e9c062 !important;
+}
+
+.sunburst .hljs-title,
+.sunburst .hljs-section,
+.sunburst .hljs-tag,
+.sunburst .hljs-name {
+  color: #89bdff !important;
+}
+
+.sunburst .hljs-class .hljs-title,
+.sunburst .hljs-doctag {
+  text-decoration: underline !important;
+}
+
+.sunburst .hljs-symbol,
+.sunburst .hljs-bullet,
+.sunburst .hljs-number {
+  color: #3387cc !important;
+}
+
+.sunburst .hljs-params,
+.sunburst .hljs-variable,
+.sunburst .hljs-template-variable {
+  color: #3e87e3 !important;
+}
+
+.sunburst .hljs-attribute {
+  color: #cda869 !important;
+}
+
+.sunburst .hljs-meta {
+  color: #8996a8 !important;
+}
+
+.sunburst .hljs-formula {
+  background-color: #0e2231 !important;
+  color: #f8f8f8 !important;
+  font-style: italic !important;
+}
+
+.sunburst .hljs-addition {
+  background-color: #253b22 !important;
+  color: #f8f8f8 !important;
+}
+
+.sunburst .hljs-deletion {
+  background-color: #420e09 !important;
+  color: #f8f8f8 !important;
+}
+
+.sunburst .hljs-selector-class {
+  color: #9b703f !important;
+}
+
+.sunburst .hljs-selector-id {
+  color: #8b98ab !important;
+}
+
+.sunburst .hljs-emphasis {
+  font-style: italic !important;
+}
+
+.sunburst .hljs-strong {
+  font-weight: bold !important;
+}
+/* Tomorrow Night Blue Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+
+/* Tomorrow Comment */
+.tomorrow-night-blue .hljs-comment,
+.tomorrow-night-blue .hljs-quote {
+  color: #7285b7 !important;
+}
+
+/* Tomorrow Red */
+.tomorrow-night-blue .hljs-variable,
+.tomorrow-night-blue .hljs-template-variable,
+.tomorrow-night-blue .hljs-tag,
+.tomorrow-night-blue .hljs-name,
+.tomorrow-night-blue .hljs-selector-id,
+.tomorrow-night-blue .hljs-selector-class,
+.tomorrow-night-blue .hljs-regexp,
+.tomorrow-night-blue .hljs-deletion {
+  color: #ff9da4 !important;
+}
+
+/* Tomorrow Orange */
+.tomorrow-night-blue .hljs-number,
+.tomorrow-night-blue .hljs-built_in,
+.tomorrow-night-blue .hljs-builtin-name,
+.tomorrow-night-blue .hljs-literal,
+.tomorrow-night-blue .hljs-type,
+.tomorrow-night-blue .hljs-params,
+.tomorrow-night-blue .hljs-meta,
+.tomorrow-night-blue .hljs-link {
+  color: #ffc58f !important;
+}
+
+/* Tomorrow Yellow */
+.tomorrow-night-blue .hljs-attribute {
+  color: #ffeead !important;
+}
+
+/* Tomorrow Green */
+.tomorrow-night-blue .hljs-string,
+.tomorrow-night-blue .hljs-symbol,
+.tomorrow-night-blue .hljs-bullet,
+.tomorrow-night-blue .hljs-addition {
+  color: #d1f1a9 !important;
+}
+
+/* Tomorrow Blue */
+.tomorrow-night-blue .hljs-title,
+.tomorrow-night-blue .hljs-section {
+  color: #bbdaff !important;
+}
+
+/* Tomorrow Purple */
+.tomorrow-night-blue .hljs-keyword,
+.tomorrow-night-blue .hljs-selector-tag {
+  color: #ebbbff !important;
+}
+
+.tomorrow-night-blue.hljs {
+  display: block !important;
+  overflow-x: auto !important;
+  background: #002451 !important;
+  color: white !important;
+  padding: 0.5em !important;
+}
+
+.tomorrow-night-blue .hljs-emphasis {
+  font-style: italic !important;
+}
+
+.tomorrow-night-blue .hljs-strong {
+  font-weight: bold !important;
+}
+/* Tomorrow Night Bright Theme */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+
+/* Tomorrow Comment */
+.tomorrow-night-bright .hljs-comment,
+.tomorrow-night-bright .hljs-quote {
+  color: #969896 !important;
+}
+
+/* Tomorrow Red */
+.tomorrow-night-bright .hljs-variable,
+.tomorrow-night-bright .hljs-template-variable,
+.tomorrow-night-bright .hljs-tag,
+.tomorrow-night-bright .hljs-name,
+.tomorrow-night-bright .hljs-selector-id,
+.tomorrow-night-bright .hljs-selector-class,
+.tomorrow-night-bright .hljs-regexp,
+.tomorrow-night-bright .hljs-deletion {
+  color: #d54e53 !important;
+}
+
+/* Tomorrow Orange */
+.tomorrow-night-bright .hljs-number,
+.tomorrow-night-bright .hljs-built_in,
+.tomorrow-night-bright .hljs-builtin-name,
+.tomorrow-night-bright .hljs-literal,
+.tomorrow-night-bright .hljs-type,
+.tomorrow-night-bright .hljs-params,
+.tomorrow-night-bright .hljs-meta,
+.tomorrow-night-bright .hljs-link {
+  color: #e78c45 !important;
+}
+
+/* Tomorrow Yellow */
+.tomorrow-night-bright .hljs-attribute {
+  color: #e7c547 !important;
+}
+
+/* Tomorrow Green */
+.tomorrow-night-bright .hljs-string,
+.tomorrow-night-bright .hljs-symbol,
+.tomorrow-night-bright .hljs-bullet,
+.tomorrow-night-bright .hljs-addition {
+  color: #b9ca4a !important;
+}
+
+/* Tomorrow Blue */
+.tomorrow-night-bright .hljs-title,
+.tomorrow-night-bright .hljs-section {
+  color: #7aa6da !important;
+}
+
+/* Tomorrow Purple */
+.tomorrow-night-bright .hljs-keyword,
+.tomorrow-night-bright .hljs-selector-tag {
+  color: #c397d8 !important;
+}
+
+.tomorrow-night-bright.hljs {
+  display: block !important;
+  overflow-x: auto !important;
+  background: black !important;
+  color: #eaeaea !important;
+  padding: 0.5em !important;
+}
+
+.tomorrow-night-bright .hljs-emphasis {
+  font-style: italic !important;
+}
+
+.tomorrow-night-bright .hljs-strong {
+  font-weight: bold !important;
+}
+/* Tomorrow Night Eighties Theme */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+
+/* Tomorrow Comment */
+.tomorrow-night-eighties .hljs-comment,
+.tomorrow-night-eighties .hljs-quote {
+  color: #999999 !important;
+}
+
+/* Tomorrow Red */
+.tomorrow-night-eighties .hljs-variable,
+.tomorrow-night-eighties .hljs-template-variable,
+.tomorrow-night-eighties .hljs-tag,
+.tomorrow-night-eighties .hljs-name,
+.tomorrow-night-eighties .hljs-selector-id,
+.tomorrow-night-eighties .hljs-selector-class,
+.tomorrow-night-eighties .hljs-regexp,
+.tomorrow-night-eighties .hljs-deletion {
+  color: #f2777a !important;
+}
+
+/* Tomorrow Orange */
+.tomorrow-night-eighties .hljs-number,
+.tomorrow-night-eighties .hljs-built_in,
+.tomorrow-night-eighties .hljs-builtin-name,
+.tomorrow-night-eighties .hljs-literal,
+.tomorrow-night-eighties .hljs-type,
+.tomorrow-night-eighties .hljs-params,
+.tomorrow-night-eighties .hljs-meta,
+.tomorrow-night-eighties .hljs-link {
+  color: #f99157 !important;
+}
+
+/* Tomorrow Yellow */
+.tomorrow-night-eighties .hljs-attribute {
+  color: #ffcc66 !important;
+}
+
+/* Tomorrow Green */
+.tomorrow-night-eighties .hljs-string,
+.tomorrow-night-eighties .hljs-symbol,
+.tomorrow-night-eighties .hljs-bullet,
+.tomorrow-night-eighties .hljs-addition {
+  color: #99cc99 !important;
+}
+
+/* Tomorrow Blue */
+.tomorrow-night-eighties .hljs-title,
+.tomorrow-night-eighties .hljs-section {
+  color: #6699cc !important;
+}
+
+/* Tomorrow Purple */
+.tomorrow-night-eighties .hljs-keyword,
+.tomorrow-night-eighties .hljs-selector-tag {
+  color: #cc99cc !important;
+}
+
+.tomorrow-night-eighties.hljs {
+  display: block !important;
+  overflow-x: auto !important;
+  background: #2d2d2d !important;
+  color: #cccccc !important;
+  padding: 0.5em !important;
+}
+
+.tomorrow-night-eighties .hljs-emphasis {
+  font-style: italic !important;
+}
+
+.tomorrow-night-eighties .hljs-strong {
+  font-weight: bold !important;
+}
+/* Tomorrow Night Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+
+/* Tomorrow Comment */
+.tomorrow-night .hljs-comment,
+.tomorrow-night .hljs-quote {
+  color: #969896 !important;
+}
+
+/* Tomorrow Red */
+.tomorrow-night .hljs-variable,
+.tomorrow-night .hljs-template-variable,
+.tomorrow-night .hljs-tag,
+.tomorrow-night .hljs-name,
+.tomorrow-night .hljs-selector-id,
+.tomorrow-night .hljs-selector-class,
+.tomorrow-night .hljs-regexp,
+.tomorrow-night .hljs-deletion {
+  color: #cc6666 !important;
+}
+
+/* Tomorrow Orange */
+.tomorrow-night .hljs-number,
+.tomorrow-night .hljs-built_in,
+.tomorrow-night .hljs-builtin-name,
+.tomorrow-night .hljs-literal,
+.tomorrow-night .hljs-type,
+.tomorrow-night .hljs-params,
+.tomorrow-night .hljs-meta,
+.tomorrow-night .hljs-link {
+  color: #de935f !important;
+}
+
+/* Tomorrow Yellow */
+.tomorrow-night .hljs-attribute {
+  color: #f0c674 !important;
+}
+
+/* Tomorrow Green */
+.tomorrow-night .hljs-string,
+.tomorrow-night .hljs-symbol,
+.tomorrow-night .hljs-bullet,
+.tomorrow-night .hljs-addition {
+  color: #b5bd68 !important;
+}
+
+/* Tomorrow Blue */
+.tomorrow-night .hljs-title,
+.tomorrow-night .hljs-section {
+  color: #81a2be !important;
+}
+
+/* Tomorrow Purple */
+.tomorrow-night .hljs-keyword,
+.tomorrow-night .hljs-selector-tag {
+  color: #b294bb !important;
+}
+
+.tomorrow-night.hljs {
+  display: block !important;
+  overflow-x: auto !important;
+  background: #1d1f21 !important;
+  color: #c5c8c6 !important;
+  padding: 0.5em !important;
+}
+
+.tomorrow-night .hljs-emphasis {
+  font-style: italic !important;
+}
+
+.tomorrow-night .hljs-strong {
+  font-weight: bold !important;
+}
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+
+/* Tomorrow Comment */
+.tomorrow .hljs-comment,
+.tomorrow .hljs-quote {
+  color: #8e908c !important;
+}
+
+/* Tomorrow Red */
+.tomorrow .hljs-variable,
+.tomorrow .hljs-template-variable,
+.tomorrow .hljs-tag,
+.tomorrow .hljs-name,
+.tomorrow .hljs-selector-id,
+.tomorrow .hljs-selector-class,
+.tomorrow .hljs-regexp,
+.tomorrow .hljs-deletion {
+  color: #c82829 !important;
+}
+
+/* Tomorrow Orange */
+.tomorrow .hljs-number,
+.tomorrow .hljs-built_in,
+.tomorrow .hljs-builtin-name,
+.tomorrow .hljs-literal,
+.tomorrow .hljs-type,
+.tomorrow .hljs-params,
+.tomorrow .hljs-meta,
+.tomorrow .hljs-link {
+  color: #f5871f !important;
+}
+
+/* Tomorrow Yellow */
+.tomorrow .hljs-attribute {
+  color: #eab700 !important;
+}
+
+/* Tomorrow Green */
+.tomorrow .hljs-string,
+.tomorrow .hljs-symbol,
+.tomorrow .hljs-bullet,
+.tomorrow .hljs-addition {
+  color: #718c00 !important;
+}
+
+/* Tomorrow Blue */
+.tomorrow .hljs-title,
+.tomorrow .hljs-section {
+  color: #4271ae !important;
+}
+
+/* Tomorrow Purple */
+.tomorrow .hljs-keyword,
+.tomorrow .hljs-selector-tag {
+  color: #8959a8 !important;
+}
+
+.tomorrow.hljs {
+  display: block !important;
+  overflow-x: auto !important;
+  background: white !important;
+  color: #4d4d4c !important;
+  padding: 0.5em !important;
+}
+
+.tomorrow .hljs-emphasis {
+  font-style: italic !important;
+}
+
+.tomorrow .hljs-strong {
+  font-weight: bold !important;
+}
+/*
+
+Visual Studio-like style based on original C# coloring by Jason Diamond <jason@diamond.name>
+
+*/
+.vs.hljs {
+  display: block !important;
+  overflow-x: auto !important;
+  padding: 0.5em !important;
+  background: white !important;
+  color: black !important;
+}
+
+.vs .hljs-comment,
+.vs .hljs-quote,
+.vs .hljs-variable {
+  color: #008000 !important;
+}
+
+.vs .hljs-keyword,
+.vs .hljs-selector-tag,
+.vs .hljs-built_in,
+.vs .hljs-name,
+.vs .hljs-tag {
+  color: #00f !important;
+}
+
+.vs .hljs-string,
+.vs .hljs-title,
+.vs .hljs-section,
+.vs .hljs-attribute,
+.vs .hljs-literal,
+.vs .hljs-template-tag,
+.vs .hljs-template-variable,
+.vs .hljs-type,
+.vs .hljs-addition {
+  color: #a31515 !important;
+}
+
+.vs .hljs-deletion,
+.vs .hljs-selector-attr,
+.vs .hljs-selector-pseudo,
+.vs .hljs-meta {
+  color: #2b91af !important;
+}
+
+.vs .hljs-doctag {
+  color: #808080 !important;
+}
+
+.vs .hljs-attr {
+  color: #f00 !important;
+}
+
+.vs .hljs-symbol,
+.vs .hljs-bullet,
+.vs .hljs-link {
+  color: #00b0e8 !important;
+}
+
+
+.vs .hljs-emphasis {
+  font-style: italic !important;
+}
+
+.vs .hljs-strong {
+  font-weight: bold !important;
+}
+/*
+
+XCode style (c) Angel Garcia <angelgarcia.mail@gmail.com>
+
+*/
+
+.xcode.hljs {
+  display: block !important;
+  overflow-x: auto !important;
+  padding: 0.5em !important;
+  background: #fff !important;
+  color: black !important;
+}
+
+.xcode .hljs-comment,
+.xcode .hljs-quote {
+  color: #006a00 !important;
+}
+
+.xcode .hljs-keyword,
+.xcode .hljs-selector-tag,
+.xcode .hljs-literal {
+  color: #aa0d91 !important;
+}
+
+.xcode .hljs-name {
+  color: #008 !important;
+}
+
+.xcode .hljs-variable,
+.xcode .hljs-template-variable {
+  color: #660 !important;
+}
+
+.xcode .hljs-string {
+  color: #c41a16 !important;
+}
+
+.xcode .hljs-regexp,
+.xcode .hljs-link {
+  color: #080 !important;
+}
+
+.xcode .hljs-title,
+.xcode .hljs-tag,
+.xcode .hljs-symbol,
+.xcode .hljs-bullet,
+.xcode .hljs-number,
+.xcode .hljs-meta {
+  color: #1c00cf !important;
+}
+
+.xcode .hljs-section,
+.xcode .hljs-class .hljs-title,
+.xcode .hljs-type,
+.xcode .hljs-attr,
+.xcode .hljs-built_in,
+.xcode .hljs-builtin-name,
+.xcode .hljs-params {
+  color: #5c2699 !important;
+}
+
+.xcode .hljs-attribute,
+.xcode .hljs-subst {
+  color: #000 !important;
+}
+
+.xcode .hljs-formula {
+  background-color: #eee !important;
+  font-style: italic !important;
+}
+
+.xcode .hljs-addition {
+  background-color: #baeeba !important;
+}
+
+.xcode .hljs-deletion {
+  background-color: #ffc8bd !important;
+}
+
+.xcode .hljs-selector-id,
+.xcode .hljs-selector-class {
+  color: #9b703f !important;
+}
+
+.xcode .hljs-doctag,
+.xcode .hljs-strong {
+  font-weight: bold !important;
+}
+
+.xcode .hljs-emphasis {
+  font-style: italic !important;
+}
+/*
+
+Zenburn style from voldmar.ru (c) Vladimir Epifanov <voldmar@voldmar.ru>
+based on dark.css by Ivan Sagalaev
+
+*/
+
+.zenburn.hljs {
+  display: block !important;
+  overflow-x: auto !important;
+  padding: 0.5em !important;
+  background: #3f3f3f !important;
+  color: #dcdcdc !important;
+}
+
+.zenburn .hljs-keyword,
+.zenburn .hljs-selector-tag,
+.zenburn .hljs-tag {
+  color: #e3ceab !important;
+}
+
+.zenburn .hljs-template-tag {
+  color: #dcdcdc !important;
+}
+
+.zenburn .hljs-number {
+  color: #8cd0d3 !important;
+}
+
+.zenburn .hljs-variable,
+.zenburn .hljs-template-variable,
+.zenburn .hljs-attribute {
+  color: #efdcbc !important;
+}
+
+.zenburn .hljs-literal {
+  color: #efefaf !important;
+}
+
+.zenburn .hljs-subst {
+  color: #8f8f8f !important;
+}
+
+.zenburn .hljs-title,
+.zenburn .hljs-name,
+.zenburn .hljs-selector-id,
+.zenburn .hljs-selector-class,
+.zenburn .hljs-section,
+.zenburn .hljs-type {
+  color: #efef8f !important;
+}
+
+.zenburn .hljs-symbol,
+.zenburn .hljs-bullet,
+.zenburn .hljs-link {
+  color: #dca3a3 !important;
+}
+
+.zenburn .hljs-deletion,
+.zenburn .hljs-string,
+.zenburn .hljs-built_in,
+.zenburn .hljs-builtin-name {
+  color: #cc9393 !important;
+}
+
+.zenburn .hljs-addition,
+.zenburn .hljs-comment,
+.zenburn .hljs-quote,
+.zenburn .hljs-meta {
+  color: #7f9f7f !important;
+}
+
+
+.zenburn .hljs-emphasis {
+  font-style: italic !important;
+}
+
+.zenburn .hljs-strong {
+  font-weight: bold !important;
+}
