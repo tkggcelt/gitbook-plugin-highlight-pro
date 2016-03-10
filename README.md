@@ -42,11 +42,19 @@ gitbook-Root
 # 原理
 highlight-pro插件将自动解析gitbook中markdown中的代码段，如以下部分
 ```markdown
- ```html
- <div>xxxx</div>
- ```
+  ```html
+  <div>xxxx</div>
+
+  xxxxxxxxxxxxxxxxxxxxxxx
+  ```php
+  <?php 
+      echo "hello world";
+  ?>
+
 ```
+
 > 注意，插件仅仅解析这一种风格的markdown代码，且必须显式指定代码语言(如`html`)，否则将不会解析
+
 
 # 配置
 highlight-pro插件默认使用monokai风格，可以在配置文件中修改默认风格。
